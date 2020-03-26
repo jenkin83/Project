@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Station>
+  <!--版本信息-->
+  <Version VersionId="yyd201606170001" VersionDate="20160617104839" VersionType="1" VersionValidate="20160617104504" ValidateType="1" InValidateTime="20160617104839" VersionSystem="400" VersionOper="010197" FormatVersion="01" />
+  <!--车站信息-->
+  <StationBaseInfo>
+    <BasicInfo Id="1241013000" Name="红树湾南" StationName_En="Hongshuwan south" StationNo_Ex="1241013000" />
+    <BasicInfo Id="1241015000" Name="南山" StationName_En="Nanshan" StationNo_Ex="1241015000" />
+    <BasicInfo Id="1241017000" Name="宝安" StationName_En="Bao'an" StationNo_Ex="1241017000" />
+    <BasicInfo Id="1241018000" Name="碧海湾" StationName_En="Bihaiwan" StationNo_Ex="1241018000" />
+    <BasicInfo Id="1241019000" Name="机场" StationName_En="Airport" StationNo_Ex="1241019000" />
+    <BasicInfo Id="1241020000" Name="机场北" StationName_En="Airport North" StationNo_Ex="1241020000" />
+    <BasicInfo Id="1241021000" Name="福永" StationName_En="Fuyong" StationNo_Ex="1241021000" />
+    <BasicInfo Id="1241022000" Name="桥头" StationName_En="Qiaotou" StationNo_Ex="1241022000" />
+    <BasicInfo Id="1241023000" Name="塘尾" StationName_En="Tangwei" StationNo_Ex="1241023000" />
+    <BasicInfo Id="1241024000" Name="马安山" StationName_En="Ma'an Hill" StationNo_Ex="1241024000" />
+    <BasicInfo Id="1241025000" Name="沙井" StationName_En="Shajing" StationNo_Ex="1241025000" />
+    <BasicInfo Id="1241026000" Name="后亭" StationName_En="Houting" StationNo_Ex="1241026000" />
+    <BasicInfo Id="1241027000" Name="松岗" StationName_En="Songgang" StationNo_Ex="1241027000" />
+    <BasicInfo Id="1241028000" Name="碧头" StationName_En="Bitou" StationNo_Ex="1241028000" />
+    <BasicInfo Id="1260011000" Name="赤湾" StationName_En="Chiwan" StationNo_Ex="1260011000" />
+    <BasicInfo Id="1260012000" Name="蛇口港" StationName_En="Shekou Port" StationNo_Ex="1260012000" />
+    <BasicInfo Id="1260013000" Name="海上世界" StationName_En="Sea World" StationNo_Ex="1260013000" />
+    <BasicInfo Id="1260014000" Name="水湾" StationName_En="Shuiwan" StationNo_Ex="1260014000" />
+    <BasicInfo Id="1260015000" Name="东角头" StationName_En="Dongjiaotou" StationNo_Ex="1260015000" />
+    <BasicInfo Id="1260016000" Name="湾厦" StationName_En="Wanxia" StationNo_Ex="1260016000" />
+    <BasicInfo Id="1260017000" Name="海月" StationName_En="Haiyue" StationNo_Ex="1260017000" />
+    <BasicInfo Id="1260018000" Name="登良" StationName_En="Dengliang" StationNo_Ex="1260018000" />
+    <BasicInfo Id="1260019000" Name="后海" StationName_En="Houhai" StationNo_Ex="1260019000" />
+    <BasicInfo Id="1260020000" Name="科苑" StationName_En="Keyuan" StationNo_Ex="1260020000" />
+    <BasicInfo Id="1260021000" Name="红树湾" StationName_En="Hongshuwan" StationNo_Ex="1260021000" />
+    <BasicInfo Id="1260023000" Name="侨城北" StationName_En="Qiaocheng North" StationNo_Ex="1260023000" />
+    <BasicInfo Id="1260024000" Name="深康" StationName_En="Shenkang" StationNo_Ex="1260024000" />
+    <BasicInfo Id="1260025000" Name="安托山" StationName_En="Antuo Hill" StationNo_Ex="1260025000" />
+    <BasicInfo Id="1260026000" Name="侨香" StationName_En="Qiaoxiang" StationNo_Ex="1260026000" />
+    <BasicInfo Id="1260027000" Name="香蜜" StationName_En="Xiangmi" StationNo_Ex="1260027000" />
+    <BasicInfo Id="1260028000" Name="香梅北" StationName_En="Xiangmei North" StationNo_Ex="1260028000" />
+    <BasicInfo Id="1260029000" Name="景田" StationName_En="Jingtian" StationNo_Ex="1260029000" />
+    <BasicInfo Id="1260030000" Name="莲花西" StationName_En="Lianhua West" StationNo_Ex="1260030000" />
+    <BasicInfo Id="1260033000" Name="岗厦北" StationName_En="Gangxia North" StationNo_Ex="1260033000" />
+    <BasicInfo Id="1260034000" Name="华强北" StationName_En="Huaqiang North" StationNo_Ex="1260034000" />
+    <BasicInfo Id="1260035000" Name="燕南" StationName_En="Yannan" StationNo_Ex="1260035000" />
+    <BasicInfo Id="1260037000" Name="湖贝" StationName_En="Hubei" StationNo_Ex="1260037000" />
+    <BasicInfo Id="1260039000" Name="新秀" StationName_En="Xinxiu" StationNo_Ex="1260039000" />
+    <BasicInfo Id="1261003000" Name="益田" StationName_En="Yitian" StationNo_Ex="1261003000" />
+    <BasicInfo Id="1261004000" Name="石厦" StationName_En="Shixia" StationNo_Ex="1261004000" />
+    <BasicInfo Id="1261006000" Name="福田" StationName_En="Futian" StationNo_Ex="1261006000" />
+    <BasicInfo Id="1261008000" Name="莲花村" StationName_En="Lianhuacun" StationNo_Ex="1261008000" />
+    <BasicInfo Id="1261009000" Name="华新" StationName_En="Huaxin" StationNo_Ex="1261009000" />
+    <BasicInfo Id="1261010000" Name="通新岭" StationName_En="Tongxinling" StationNo_Ex="1261010000" />
+    <BasicInfo Id="1261011000" Name="红岭" StationName_En="Hongling" StationNo_Ex="1261011000" />
+    <BasicInfo Id="1261013000" Name="晒布" StationName_En="Shaibu" StationNo_Ex="1261013000" />
+    <BasicInfo Id="1261014000" Name="翠竹" StationName_En="Cuizhu" StationNo_Ex="1261014000" />
+    <BasicInfo Id="1261015000" Name="田贝" StationName_En="Tianbei" StationNo_Ex="1261015000" />
+    <BasicInfo Id="1261016000" Name="水贝" StationName_En="ShuiBei" StationNo_Ex="1261016000" />
+    <BasicInfo Id="1261017000" Name="草埔" StationName_En="Caopu" StationNo_Ex="1261017000" />
+    <BasicInfo Id="1261018000" Name="布吉" StationName_En="Buji" StationNo_Ex="1261018000" />
+    <BasicInfo Id="1261019000" Name="木棉湾" StationName_En="Mumianwan" StationNo_Ex="1261019000" />
+    <BasicInfo Id="1261020000" Name="大芬" StationName_En="Dafen" StationNo_Ex="1261020000" />
+    <BasicInfo Id="1261021000" Name="丹竹头" StationName_En="Danzhutou" StationNo_Ex="1261021000" />
+    <BasicInfo Id="1261022000" Name="六约" StationName_En="Liuyue" StationNo_Ex="1261022000" />
+    <BasicInfo Id="1261023000" Name="塘坑" StationName_En="Tangkeng" StationNo_Ex="1261023000" />
+    <BasicInfo Id="1261024000" Name="横岗" StationName_En="Henggang" StationNo_Ex="1261024000" />
+    <BasicInfo Id="1261025000" Name="永湖" StationName_En="Yonghu" StationNo_Ex="1261025000" />
+    <BasicInfo Id="1261026000" Name="荷坳" StationName_En="He'ao" StationNo_Ex="1261026000" />
+    <BasicInfo Id="1261027000" Name="大运" StationName_En="Universiade" StationNo_Ex="1261027000" />
+    <BasicInfo Id="1261028000" Name="爱联" StationName_En="Ailian" StationNo_Ex="1261028000" />
+    <BasicInfo Id="1261029000" Name="吉祥" StationName_En="Jixiang" StationNo_Ex="1261029000" />
+    <BasicInfo Id="1261030000" Name="龙城广场" StationName_En="Longcheng Square" StationNo_Ex="1261030000" />
+    <BasicInfo Id="1261031000" Name="南联" StationName_En="Nanlian" StationNo_Ex="1261031000" />
+    <BasicInfo Id="1261032000" Name="双龙" StationName_En="Shuanglong" StationNo_Ex="1261032000" />
+    <BasicInfo Id="1262011000" Name="清湖" StationName_En="Qinghu" StationNo_Ex="1262011000" />
+    <BasicInfo Id="1262012000" Name="龙华" StationName_En="Longhua" StationNo_Ex="1262012000" />
+    <BasicInfo Id="1262013000" Name="龙胜" StationName_En="Longsheng" StationNo_Ex="1262013000" />
+    <BasicInfo Id="1262014000" Name="上塘" StationName_En="Shangtang" StationNo_Ex="1262014000" />
+    <BasicInfo Id="1262015000" Name="红山" StationName_En="Hongshan" StationNo_Ex="1262015000" />
+    <BasicInfo Id="1262016000" Name="深圳北" StationName_En="Shenzhen North Station" StationNo_Ex="1262016000" />
+    <BasicInfo Id="1262017000" Name="白石龙" StationName_En="Baishilong" StationNo_Ex="1262017000" />
+    <BasicInfo Id="1262018000" Name="民乐" StationName_En="Minle" StationNo_Ex="1262018000" />
+    <BasicInfo Id="1262019000" Name="上梅林" StationName_En="Shangmeilin" StationNo_Ex="1262019000" />
+    <BasicInfo Id="1262020000" Name="莲花北" StationName_En="Lianhua North" StationNo_Ex="1262020000" />
+    <BasicInfo Id="1263012000" Name="临海" StationName_En="LinHai" StationNo_Ex="1263012000" />
+    <BasicInfo Id="1263013000" Name="宝华" StationName_En="Baohua" StationNo_Ex="1263013000" />
+    <BasicInfo Id="1263015000" Name="翻身" StationName_En="Fanshen" StationNo_Ex="1263015000" />
+    <BasicInfo Id="1263016000" Name="灵芝" StationName_En="Lingzhi" StationNo_Ex="1263016000" />
+    <BasicInfo Id="1263017000" Name="洪浪北" StationName_En="Honglang North" StationNo_Ex="1263017000" />
+    <BasicInfo Id="1263018000" Name="兴东" StationName_En="Xingdong" StationNo_Ex="1263018000" />
+    <BasicInfo Id="1263019000" Name="留仙洞" StationName_En="Liuxiandong" StationNo_Ex="1263019000" />
+    <BasicInfo Id="1263020000" Name="西丽" StationName_En="Xili" StationNo_Ex="1263020000" />
+    <BasicInfo Id="1263021000" Name="大学城" StationName_En="University Town" StationNo_Ex="1263021000" />
+    <BasicInfo Id="1263022000" Name="塘朗" StationName_En="Tanglang" StationNo_Ex="1263022000" />
+    <BasicInfo Id="1263023000" Name="长岭陂" StationName_En="Changlingpi" StationNo_Ex="1263023000" />
+    <BasicInfo Id="1263025000" Name="民治" StationName_En="Minzhi" StationNo_Ex="1263025000" />
+    <BasicInfo Id="1263026000" Name="五和" StationName_En="Wuhe" StationNo_Ex="1263026000" />
+    <BasicInfo Id="1263027000" Name="坂田" StationName_En="Bantian" StationNo_Ex="1263027000" />
+    <BasicInfo Id="1263028000" Name="杨美" StationName_En="Yangmei" StationNo_Ex="1263028000" />
+    <BasicInfo Id="1263029000" Name="上水径" StationName_En="Shangshuijing" StationNo_Ex="1263029000" />
+    <BasicInfo Id="1263030000" Name="下水径" StationName_En="Xiashuijing" StationNo_Ex="1263030000" />
+    <BasicInfo Id="1263031000" Name="长龙" StationName_En="Changlong" StationNo_Ex="1263031000" />
+    <BasicInfo Id="1263033000" Name="百鸽笼" StationName_En="Baigelong" StationNo_Ex="1263033000" />
+    <BasicInfo Id="1263034000" Name="布心" StationName_En="Buxin" StationNo_Ex="1263034000" />
+    <BasicInfo Id="1263035000" Name="太安" StationName_En="Tai'an" StationNo_Ex="1263035000" />
+    <BasicInfo Id="1263036000" Name="怡景" StationName_En="Yijing" StationNo_Ex="1263036000" />
+    <BasicInfo Id="1263037000" Name="黄贝岭" StationName_En="Huangbeiling" StationNo_Ex="1263037000" />
+    <BasicInfo Id="1268001000" Name="罗湖" StationName_En="LuoHu" StationNo_Ex="1268001000" />
+    <BasicInfo Id="1268002000" Name="国贸" StationName_En="Guomao" StationNo_Ex="1268002000" />
+    <BasicInfo Id="1268003000" Name="老街" StationName_En="Laojie" StationNo_Ex="1268003000" />
+    <BasicInfo Id="1268004000" Name="大剧院" StationName_En="Grand Theater" StationNo_Ex="1268004000" />
+    <BasicInfo Id="1268005000" Name="科学馆" StationName_En="Science Museum" StationNo_Ex="1268005000" />
+    <BasicInfo Id="1268006000" Name="华强路" StationName_En="Huaqiang Rd" StationNo_Ex="1268006000" />
+    <BasicInfo Id="1268007000" Name="岗厦" StationName_En="Gangxia" StationNo_Ex="1268007000" />
+    <BasicInfo Id="1268008000" Name="会展中心" StationName_En="Convention&amp;Exhibition Center" StationNo_Ex="1268008000" />
+    <BasicInfo Id="1268009000" Name="购物公园" StationName_En="Shopping Park" StationNo_Ex="1268009000" />
+    <BasicInfo Id="1268011000" Name="香蜜湖" StationName_En="Xiangmihu" StationNo_Ex="1268011000" />
+    <BasicInfo Id="1268012000" Name="车公庙" StationName_En="Chegongmiao" StationNo_Ex="1268012000" />
+    <BasicInfo Id="1268013000" Name="竹子林" StationName_En="Zhuzilin" StationNo_Ex="1268013000" />
+    <BasicInfo Id="1268014000" Name="侨城东" StationName_En="Qiaocheng East" StationNo_Ex="1268014000" />
+    <BasicInfo Id="1268015000" Name="华侨城" StationName_En="Overseas Chinese Town(OCT)" StationNo_Ex="1268015000" />
+    <BasicInfo Id="1268016000" Name="世界之窗" StationName_En="Window of the World" StationNo_Ex="1268016000" />
+    <BasicInfo Id="1268017000" Name="福田口岸" StationName_En="Futian Checkpoint" StationNo_Ex="1268017000" />
+    <BasicInfo Id="1268018000" Name="福民" StationName_En="Fumin" StationNo_Ex="1268018000" />
+    <BasicInfo Id="1268019000" Name="市民中心" StationName_En="Civic Center" StationNo_Ex="1268019000" />
+    <BasicInfo Id="1268021000" Name="少年宫" StationName_En="Children'Palace" StationNo_Ex="1268021000" />
+    <BasicInfo Id="1268022000" Name="白石洲" StationName_En="Baishizhou" StationNo_Ex="1268022000" />
+    <BasicInfo Id="1268023000" Name="高新园" StationName_En="Hi-Tech Park" StationNo_Ex="1268023000" />
+    <BasicInfo Id="1268024000" Name="深大" StationName_En="Shenzhen University" StationNo_Ex="1268024000" />
+    <BasicInfo Id="1268025000" Name="桃园" StationName_En="Taoyuan" StationNo_Ex="1268025000" />
+    <BasicInfo Id="1268026000" Name="大新" StationName_En="Daxin" StationNo_Ex="1268026000" />
+    <BasicInfo Id="1268027000" Name="鲤鱼门" StationName_En="Liyumen" StationNo_Ex="1268027000" />
+    <BasicInfo Id="1268028000" Name="前海湾" StationName_En="Qianhaiwan" StationNo_Ex="1268028000" />
+    <BasicInfo Id="1268029000" Name="新安" StationName_En="Xin'an" StationNo_Ex="1268029000" />
+    <BasicInfo Id="1268030000" Name="宝安中心" StationName_En="Bao'an Center" StationNo_Ex="1268030000" />
+    <BasicInfo Id="1268031000" Name="宝体" StationName_En="Bao'an Stadium" StationNo_Ex="1268031000" />
+    <BasicInfo Id="1268032000" Name="坪洲" StationName_En="Pingzhou" StationNo_Ex="1268032000" />
+    <BasicInfo Id="1268033000" Name="西乡" StationName_En="Xixiang" StationNo_Ex="1268033000" />
+    <BasicInfo Id="1268034000" Name="固戍" StationName_En="Gushu" StationNo_Ex="1268034000" />
+    <BasicInfo Id="1268035000" Name="后瑞" StationName_En="Hourui" StationNo_Ex="1268035000" />
+    <BasicInfo Id="1268036000" Name="机场东" StationName_En="Airport East" StationNo_Ex="1268036000" />
+  </StationBaseInfo>
+  <!--线路信息-->
+  <LineBaseInfo>
+    <BasicInfo Id="001" Name="一号线" IsDefaultLine="1">
+      <StationList StationBaseId="1268001000" SortId="1" />
+      <StationList StationBaseId="1268002000" SortId="2" />
+      <StationList StationBaseId="1268003000" SortId="3" />
+      <StationList StationBaseId="1268004000" SortId="4" />
+      <StationList StationBaseId="1268005000" SortId="5" />
+      <StationList StationBaseId="1268006000" SortId="6" />
+      <StationList StationBaseId="1268007000" SortId="7" />
+      <StationList StationBaseId="1268008000" SortId="8" />
+      <StationList StationBaseId="1268009000" SortId="9" />
+      <StationList StationBaseId="1268011000" SortId="10" />
+      <StationList StationBaseId="1268012000" SortId="11" />
+      <StationList StationBaseId="1268013000" SortId="12" />
+      <StationList StationBaseId="1268014000" SortId="13" />
+      <StationList StationBaseId="1268015000" SortId="14" />
+      <StationList StationBaseId="1268016000" SortId="15" />
+      <StationList StationBaseId="1268022000" SortId="16" />
+      <StationList StationBaseId="1268023000" SortId="17" />
+      <StationList StationBaseId="1268024000" SortId="18" />
+      <StationList StationBaseId="1268025000" SortId="19" />
+      <StationList StationBaseId="1268026000" SortId="20" />
+      <StationList StationBaseId="1268027000" SortId="21" />
+      <StationList StationBaseId="1268028000" SortId="22" />
+      <StationList StationBaseId="1268029000" SortId="23" />
+      <StationList StationBaseId="1268030000" SortId="24" />
+      <StationList StationBaseId="1268031000" SortId="25" />
+      <StationList StationBaseId="1268032000" SortId="26" />
+      <StationList StationBaseId="1268033000" SortId="27" />
+      <StationList StationBaseId="1268034000" SortId="28" />
+      <StationList StationBaseId="1268035000" SortId="29" />
+      <StationList StationBaseId="1268036000" SortId="30" />
+    </BasicInfo>
+    <BasicInfo Id="002" Name="二号线" IsDefaultLine="1">
+      <StationList StationBaseId="1260011000" SortId="1" />
+      <StationList StationBaseId="1260012000" SortId="2" />
+      <StationList StationBaseId="1260013000" SortId="3" />
+      <StationList StationBaseId="1260014000" SortId="4" />
+      <StationList StationBaseId="1260015000" SortId="5" />
+      <StationList StationBaseId="1260016000" SortId="6" />
+      <StationList StationBaseId="1260017000" SortId="7" />
+      <StationList StationBaseId="1260018000" SortId="8" />
+      <StationList StationBaseId="1260019000" SortId="9" />
+      <StationList StationBaseId="1260020000" SortId="10" />
+      <StationList StationBaseId="1260021000" SortId="11" />
+      <StationList StationBaseId="1260023000" SortId="12" />
+      <StationList StationBaseId="1260024000" SortId="13" />
+      <StationList StationBaseId="1260025000" SortId="14" />
+      <StationList StationBaseId="1260026000" SortId="15" />
+      <StationList StationBaseId="1260027000" SortId="16" />
+      <StationList StationBaseId="1260028000" SortId="17" />
+      <StationList StationBaseId="1260029000" SortId="18" />
+      <StationList StationBaseId="1260030000" SortId="19" />
+      <StationList StationBaseId="1260033000" SortId="20" />
+      <StationList StationBaseId="1260034000" SortId="21" />
+      <StationList StationBaseId="1260035000" SortId="22" />
+      <StationList StationBaseId="1260037000" SortId="23" />
+      <StationList StationBaseId="1260039000" SortId="24" />
+      <StationList StationBaseId="1261006000" SortId="25" />
+      <StationList StationBaseId="1268019000" SortId="26" />
+      <StationList StationBaseId="1263037000" SortId="27" />
+      <StationList StationBaseId="1268004000" SortId="28" />
+      <StationList StationBaseId="1268016000" SortId="29" />
+    </BasicInfo>
+    <BasicInfo Id="003" Name="三号线" IsDefaultLine="1">
+      <StationList StationBaseId="1261003000" SortId="1" />
+      <StationList StationBaseId="1261004000" SortId="2" />
+      <StationList StationBaseId="1261006000" SortId="3" />
+      <StationList StationBaseId="1261008000" SortId="4" />
+      <StationList StationBaseId="1261009000" SortId="5" />
+      <StationList StationBaseId="1261010000" SortId="6" />
+      <StationList StationBaseId="1261011000" SortId="7" />
+      <StationList StationBaseId="1261013000" SortId="8" />
+      <StationList StationBaseId="1261014000" SortId="9" />
+      <StationList StationBaseId="1261015000" SortId="10" />
+      <StationList StationBaseId="1261016000" SortId="11" />
+      <StationList StationBaseId="1261017000" SortId="12" />
+      <StationList StationBaseId="1261018000" SortId="13" />
+      <StationList StationBaseId="1261019000" SortId="14" />
+      <StationList StationBaseId="1261020000" SortId="15" />
+      <StationList StationBaseId="1261021000" SortId="16" />
+      <StationList StationBaseId="1261022000" SortId="17" />
+      <StationList StationBaseId="1261023000" SortId="18" />
+      <StationList StationBaseId="1261024000" SortId="19" />
+      <StationList StationBaseId="1261025000" SortId="20" />
+      <StationList StationBaseId="1261026000" SortId="21" />
+      <StationList StationBaseId="1261027000" SortId="22" />
+      <StationList StationBaseId="1261028000" SortId="23" />
+      <StationList StationBaseId="1261029000" SortId="24" />
+      <StationList StationBaseId="1261030000" SortId="25" />
+      <StationList StationBaseId="1261031000" SortId="26" />
+      <StationList StationBaseId="1261032000" SortId="27" />
+      <StationList StationBaseId="1268021000" SortId="28" />
+      <StationList StationBaseId="1268003000" SortId="29" />
+      <StationList StationBaseId="1268009000" SortId="30" />
+    </BasicInfo>
+    <BasicInfo Id="004" Name="四号线" IsDefaultLine="1">
+      <StationList StationBaseId="1262011000" SortId="1" />
+      <StationList StationBaseId="1262012000" SortId="2" />
+      <StationList StationBaseId="1262013000" SortId="3" />
+      <StationList StationBaseId="1262014000" SortId="4" />
+      <StationList StationBaseId="1262015000" SortId="5" />
+      <StationList StationBaseId="1262016000" SortId="6" />
+      <StationList StationBaseId="1262017000" SortId="7" />
+      <StationList StationBaseId="1262018000" SortId="8" />
+      <StationList StationBaseId="1262019000" SortId="9" />
+      <StationList StationBaseId="1262020000" SortId="10" />
+      <StationList StationBaseId="1268021000" SortId="11" />
+      <StationList StationBaseId="1268019000" SortId="12" />
+      <StationList StationBaseId="1268018000" SortId="13" />
+      <StationList StationBaseId="1268017000" SortId="14" />
+      <StationList StationBaseId="1268008000" SortId="15" />
+    </BasicInfo>
+    <BasicInfo Id="005" Name="五号线" IsDefaultLine="1">
+      <StationList StationBaseId="1263012000" SortId="1" />
+      <StationList StationBaseId="1263013000" SortId="2" />
+      <StationList StationBaseId="1263015000" SortId="3" />
+      <StationList StationBaseId="1263016000" SortId="4" />
+      <StationList StationBaseId="1263017000" SortId="5" />
+      <StationList StationBaseId="1263018000" SortId="6" />
+      <StationList StationBaseId="1263019000" SortId="7" />
+      <StationList StationBaseId="1263020000" SortId="8" />
+      <StationList StationBaseId="1263021000" SortId="9" />
+      <StationList StationBaseId="1263022000" SortId="10" />
+      <StationList StationBaseId="1263023000" SortId="11" />
+      <StationList StationBaseId="1263025000" SortId="12" />
+      <StationList StationBaseId="1263026000" SortId="13" />
+      <StationList StationBaseId="1263027000" SortId="14" />
+      <StationList StationBaseId="1263028000" SortId="15" />
+      <StationList StationBaseId="1263029000" SortId="16" />
+      <StationList StationBaseId="1263030000" SortId="17" />
+      <StationList StationBaseId="1263031000" SortId="18" />
+      <StationList StationBaseId="1263033000" SortId="19" />
+      <StationList StationBaseId="1263034000" SortId="20" />
+      <StationList StationBaseId="1263035000" SortId="21" />
+      <StationList StationBaseId="1263036000" SortId="22" />
+      <StationList StationBaseId="1263037000" SortId="23" />
+      <StationList StationBaseId="1261018000" SortId="24" />
+      <StationList StationBaseId="1262016000" SortId="25" />
+      <StationList StationBaseId="1268028000" SortId="26" />
+      <StationList StationBaseId="1268030000" SortId="27" />
+    </BasicInfo>
+    <BasicInfo Id="011" Name="十一号线" IsDefaultLine="1">
+      <StationList StationBaseId="1261006000" SortId="1" />
+      <StationList StationBaseId="1268012000" SortId="2" />
+      <StationList StationBaseId="1241013000" SortId="3" />
+      <StationList StationBaseId="1241015000" SortId="4" />
+      <StationList StationBaseId="1260019000" SortId="5" />
+      <StationList StationBaseId="1241017000" SortId="6" />
+      <StationList StationBaseId="1268028000" SortId="7" />
+      <StationList StationBaseId="1241018000" SortId="8" />
+      <StationList StationBaseId="1241019000" SortId="9" />
+      <StationList StationBaseId="1241020000" SortId="10" />
+      <StationList StationBaseId="1241021000" SortId="11" />
+      <StationList StationBaseId="1241022000" SortId="12" />
+      <StationList StationBaseId="1241023000" SortId="13" />
+      <StationList StationBaseId="1241024000" SortId="14" />
+      <StationList StationBaseId="1241025000" SortId="15" />
+      <StationList StationBaseId="1241026000" SortId="16" />
+      <StationList StationBaseId="1241027000" SortId="17" />
+      <StationList StationBaseId="1241028000" SortId="18" />
+    </BasicInfo>
+  </LineBaseInfo>
+  <!--区段信息-->
+  <AreaBaseInfo />
+</Station>

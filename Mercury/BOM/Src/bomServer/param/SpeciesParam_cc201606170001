@@ -1,0 +1,1392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpeciesParam>
+  <!--版本信息-->
+  <Version VersionId="cc201606170001" VersionDate="20160617104624" VersionType="1" VersionValidate="20160617104250" ValidateType="1" InValidateTime="20160617104624" VersionSystem="400" VersionOper="010197" FormatVersion="01" />
+  <!--种类信息-->
+  <Species SpeciesId="1003">
+    <!--基本信息-->
+    <BasicInfo Id="1003" Name="DS卡初化机" Protocol="00" Map="" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="1010">
+    <!--基本信息-->
+    <BasicInfo Id="1010" Name="gxmis卡初化机" Protocol="00" Map="" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="1204">
+    <!--基本信息-->
+    <BasicInfo Id="1204" Name="机场票核准机" Protocol="00" Map="" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2001">
+    <!--基本信息-->
+    <BasicInfo Id="2001" Name="gxmis票务处理机" Protocol="00" Map="2001" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm EnterRelativeTimes="20" TryTimes="3" GetMoneyAddress="path" MainFounctionInfoRows="3" OuterDays="2" ReaderLogLevel="6" ReaderProjId="SZ" ServerPhone="123456" StartDelay="5" AddMaxValueOnce="100000" BomSleepTime="180000" CanEntranceCheck="1" CheckEquipmentId="1" ClrEntranceFlagFare="200" PricedByFareCards="0500,1500,2100,2500,8800" CanUserDefineValue="0" AddValueUnit="5000" IsSecondCheck="1" DealtypeForBalance="1" InFlagCheck="0" JsBeginTime="04:00:00" MinValueCanUse="200" NoCardFine="3000" ReturnTicketBalanceLimit="8000" SellCardType="98" SellDatesCheck="0" SellStationCheck="0" BillFooterLines="10" CheckNetStateInterval="5000" CompanyAddress="path" ConsumeMaxValueOnce="3000" DisplayTimeOut="10000" IsLackOfSAM="1" CanUserDefineSaleValue="1" SaleValueUnit="1000" SaleMaxValueOnce="100000" IsDiffEntryDate="0" SellCardMaxNumbers="10" TradePrintCounts="3" TradePrintFlag="11,01,05,91,92,93,71,72,03,15,74,83,97" AllowAddSmallCash="0" UpgradeDirectory="D:\\BOM\\Upgrade\\part" UpgradeReader="Reader" UpgradeInterval="10" AutoUpgradePort="50052" UpgradeTDM="TDM" AutoUpgradeIp="10.1.1.14" UpgradeWaitTime="10" MaintainInterval="1440" Audit.TicketIncome="0" Audit.MoneyIncome="0" Audit.TicketStock="0" AuditInterval="15" Audit.MoneyStock="0" Audit.MoneyAbnormal="0" Audit.EquipmentWork="0" Audit.EquipmentAbnormal="0" Audit.TicketAbnormal="0" LogSvrPort="50050" LogSvrIP="127.0.0.1" LogFileMaxCount="5" LogListenerPort="50051" LogFileMaxSize="1024" LogRecordLevel="4" SubHostName="10.8.3.233" SubMaxReconnectTime="5" SubMaxWaitTimeout="10" SubValidTime="5" SubPort="50041" SubSvrAddr="260" SubPersist="0" MinTimeError="30" MaxTimeError="600" TimeInterval="3600" TimeSourceIP="10.8.3.203" TimeSourcePort="50046" TradeDataReserveDays="90" StateDataReserveDays="90" ParamDataReserveDays="90" PrintDataReserveDays="90" ReadRepeatedTimes="3" ConnectToServer="2" AuthCommInfo="10.1.0.200,50030,268,1.01,5" SamControlInf="1,100000,3" VerifyCardTimeOut="10" WriteRepeatedTimes="20" SellTicketType="01" BlockCard="77" AfcCreditStart="23" AfcConsume="22" Activation="80" AddValueCash="11" FvCount="2" HvCount="3" IsCompanyNamePrint="1" CompanyNameForPrint="深圳地铁" TeamTicketsMaxMoney="1000" TeamTicketsMinNum="30" IsSinglePrint="1" CancelConsume="19" TestCard="A" BlackListCard="9" CallBackCard="7" NormalCard="3" PrevalueCard="1" InitialCard="0" UpdateEntranceTime="83" CashWithDraw="79" ChangeExpiry="90" ChgCustomerPwd="85" ClrStartFlag="84" CommonConsume="20" Consume="31" ConsumeSettle="32" ConsumeStart="21" DisBlockCard="78" ModifyCustomerInfo="87" PoliticalCharge="91" PoliticalRefund="92" SellOutTicket="03" CallBackTrade="76" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="读卡器" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="15" BigName="票据打印机" SmallId="1501" SmallName="测试12" ComponentSn="0" DefaultMap="1501" StopAlarm="212" UseLife="2121" TimesLimit="212" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="2122112" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode>
+      <ListInfo Coding="AvailableParamType" CodingName="可处理的参数">
+        <CodeInfo Code="Account" Content="账户参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="BasicPrice" Content="基本价格参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="BlackList" Content="黑名单参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="CardPlan" Content="票卡方案参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="EquParam" Content="设备参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Other" Content="其他参数(编码参数)" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Price" Content="计价参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpecRight" Content="设备权限参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpecUserRight" Content="设备用户权限参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpeciesParam" Content="种类参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Station" Content="运营点参数" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="CardStatus" CodingName="票卡状态">
+        <CodeInfo Code="0" Content="未售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="1" Content="预充值,未售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="3" Content="已售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="4" Content="锁定" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="6" Content="挂失余额已退" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="7" Content="回收" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="8" Content="已挂失" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="9" Content="黑名单" Class1="1" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="DealReason" CodingName="处理方式">
+        <CodeInfo Code="01" Content="儿童超高" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="04" Content="无票" Class1="0" Class2="5" Class3="" />
+        <CodeInfo Code="05" Content="卡余额不足且不充值" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="06" Content="闸门误用" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="07" Content="单程票失效" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="08" Content="储值票失效" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="09" Content="无票乘坐专用车厢" Class1="0" Class2="9" Class3="" />
+        <CodeInfo Code="10" Content="核准储值票失效" Class1="0" Class2="10" Class3="" />
+        <CodeInfo Code="15" Content="日期票滞留超时" Class1="1100" Class2="1" Class3="" />
+        <CodeInfo Code="99" Content="其它" Class1="0" Class2="0" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="IdType" CodingName="证件类型">
+        <CodeInfo Code="01" Content="身份证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="工作证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="学生证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="军官证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="护照" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="99" Content="其他" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="LogConfig" CodingName="日志配置参数">
+        <CodeInfo Code="LogFRate" Content="720" Class1="运营替换时间，单位：分钟" Class2="" Class3="" />
+        <CodeInfo Code="LogMaxFileSize" Content="10485760" Class1="单个日志文件大小最大值，单位：B" Class2="" Class3="" />
+        <CodeInfo Code="LogMaxNum" Content="100" Class1="日志文件最大保存个数" Class2="" Class3="" />
+        <CodeInfo Code="LogMinPrintLevel" Content="1" Class1="日志打印级别，0：调试，1：信息，2：警告，3：错误" Class2="" Class3="" />
+        <CodeInfo Code="LogSaveDays" Content="100" Class1="日志文件保存时间，单位：天" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PoliticalAmerce" CodingName="行政罚款">
+        <CodeInfo Code="01" Content="无票乘车" Class1="10" Class2="0" Class3="1100;3500" />
+        <CodeInfo Code="02" Content="违规使用优惠车票" Class1="10" Class2="1" Class3="" />
+        <CodeInfo Code="03" Content="车票无效" Class1="10" Class2="1" Class3="" />
+        <CodeInfo Code="04" Content="超程" Class1="5" Class2="2" Class3="" />
+        <CodeInfo Code="99" Content="其他" Class1="1" Class2="2" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PoliticalPay" CodingName="行政支出">
+        <CodeInfo Code="01" Content="卡币" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="卡票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="少找币" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="少出票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="发售无效票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="06" Content="充值失败" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="10" Content="儿童票退款" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="99" Content="其它" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForAddValue" CodingName="快捷充值方式列表">
+        <CodeInfo Code="05000" Content="50  元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="10000" Content="100 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="15000" Content="150 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="20000" Content="200 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="25000" Content="250 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="30000" Content="300 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="35000" Content="350 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="40000" Content="400 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="50000" Content="500 元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForSingleCard" CodingName="单程票售票价格(快捷)表">
+        <CodeInfo Code="1000" Content="10元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="1100" Content="11元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="200" Content="2元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="300" Content="3元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="400" Content="4元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="500" Content="5元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="600" Content="6元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="700" Content="7元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="800" Content="8元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="900" Content="9元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForStored" CodingName="储值票售票价格(快捷)表">
+        <CodeInfo Code="10000" Content="100 元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="SellCardNumbers" CodingName="售票数量">
+        <CodeInfo Code="1" Content="1张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="2" Content="2张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="3" Content="3张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="4" Content="4张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="5" Content="5张" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="Sex" CodingName="性别">
+        <CodeInfo Code="0" Content="男" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="1" Content="女" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="SmallPriceForStored" CodingName="小额充值金额">
+        <CodeInfo Code="1000" Content="10元" Class1="小额充值金额" Class2="1" Class3="" />
+        <CodeInfo Code="10000" Content="100元" Class1="小额充值金额" Class2="5" Class3="" />
+        <CodeInfo Code="2000" Content="20元" Class1="小额充值金额" Class2="2" Class3="" />
+        <CodeInfo Code="3000" Content="30元" Class1="小额充值金额" Class2="3" Class3="" />
+        <CodeInfo Code="5000" Content="50元" Class1="小额充值金额" Class2="4" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="StudentGrade" CodingName="年级">
+        <CodeInfo Code="01" Content="1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="4年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="5年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="06" Content="6年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="07" Content="7年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="08" Content="8年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="09" Content="9年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="11" Content="高中1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="12" Content="高中2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="13" Content="高中3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="21" Content="大学1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="22" Content="大学2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="23" Content="大学3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="24" Content="大学4年级" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="TradeType" CodingName="交易类型">
+        <CodeInfo Code="01" Content="售卡" Class1="售卡" Class2="0000" Class3="0900" />
+        <CodeInfo Code="03" Content="发售出站票" Class1="售出站票" Class2="0000" Class3="0900" />
+        <CodeInfo Code="05" Content="行李票" Class1="售行李票" Class2="0000" Class3="0999" />
+        <CodeInfo Code="08" Content="初始化" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="09" Content="预赋值" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="11" Content="充值(现金)" Class1="充值" Class2="0000" Class3="0900" />
+        <CodeInfo Code="12" Content="充值(转帐)" Class1="" Class2="0000" Class3="2922" />
+        <CodeInfo Code="15" Content="补票" Class1="补票" Class2="0000" Class3="0900" />
+        <CodeInfo Code="21" Content="地铁消费起始" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="22" Content="地铁消费(结算)" Class1="地铁消费" Class2="0000" Class3="0000" />
+        <CodeInfo Code="23" Content="地铁消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="31" Content="巴士消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="32" Content="巴士消费(结算)" Class1="" Class2="0000" Class3="0900" />
+        <CodeInfo Code="33" Content="巴士消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="34" Content="巴士消费(信用结算)" Class1="" Class2="1100" Class3="1911" />
+        <CodeInfo Code="35" Content="的士消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="36" Content="的士消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="37" Content="购物消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="38" Content="购物消费(信用)" Class1="" Class2="0000" Class3="1900" />
+        <CodeInfo Code="61" Content="取消核准" Class1="取消核准" Class2="0000" Class3="0990" />
+        <CodeInfo Code="62" Content="换票退票" Class1="换票退票" Class2="0000" Class3="0990" />
+        <CodeInfo Code="63" Content="核准" Class1="核准" Class2="0000" Class3="0990" />
+        <CodeInfo Code="65" Content="换票售票" Class1="换票售票" Class2="0000" Class3="0990" />
+        <CodeInfo Code="67" Content="抵消" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="71" Content="退卡(限额内)" Class1="退卡" Class2="1110" Class3="0900" />
+        <CodeInfo Code="72" Content="退卡(限额外)" Class1="退卡" Class2="1110" Class3="9999" />
+        <CodeInfo Code="73" Content="退卡(坏卡)" Class1="退卡" Class2="1110" Class3="9999" />
+        <CodeInfo Code="74" Content="挂失" Class1="" Class2="1110" Class3="9990" />
+        <CodeInfo Code="75" Content="退余额" Class1="" Class2="1110" Class3="0900" />
+        <CodeInfo Code="76" Content="异常卡回收" Class1="" Class2="1110" Class3="0900" />
+        <CodeInfo Code="77" Content="黑名单卡锁定" Class1="卡锁定" Class2="1110" Class3="9999" />
+        <CodeInfo Code="78" Content="卡锁定解除" Class1="卡解除" Class2="0000" Class3="9999" />
+        <CodeInfo Code="79" Content="卡提现" Class1="冲正" Class2="1100" Class3="0999" />
+        <CodeInfo Code="80" Content="信用设置" Class1="" Class2="0000" Class3="9990" />
+        <CodeInfo Code="81" Content="信用登记" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="82" Content="信用取消" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="83" Content="超时处理" Class1="滞留超时" Class2="0000" Class3="0990" />
+        <CodeInfo Code="84" Content="清交易起始标记" Class1="清入站标识" Class2="0000" Class3="0990" />
+        <CodeInfo Code="85" Content="客户密码更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="86" Content="客户密码重装" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="87" Content="客户个人信息更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="88" Content="退余额下载" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="89" Content="无入站处理" Class1="无入站处理" Class2="0000" Class3="0990" />
+        <CodeInfo Code="90" Content="卡有效期更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="91" Content="收取票款" Class1="收取票款" Class2="0000" Class3="0999" />
+        <CodeInfo Code="92" Content="行政支付" Class1="乘客事务退款" Class2="1111" Class3="0999" />
+        <CodeInfo Code="93" Content="记名卡申请登记" Class1="" Class2="0000" Class3="9900" />
+        <CodeInfo Code="94" Content="信用登记下载" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="96" Content="激活" Class1="激活" Class2="0000" Class3="9999" />
+        <CodeInfo Code="97" Content="售儿童票" Class1="售儿童票" Class2="0000" Class3="0999" />
+      </ListInfo>
+    </SpeciesCode>
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2002">
+    <!--基本信息-->
+    <BasicInfo Id="2002" Name="mcm票务处理机" Protocol="00" Map="bmp\tvm" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2003">
+    <!--基本信息-->
+    <BasicInfo Id="2003" Name="gxmis3期票务处理机" Protocol="00" Map="2001" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="00" ModeName="正常通行模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="03" ModeName="紧急放行模式" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="乘客显示器" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="15" BigName="票据打印机" SmallId="1501" SmallName="票据打印机" ComponentSn="0" DefaultMap="1501" StopAlarm="212" UseLife="2121" TimesLimit="212" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="2122112" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1706" SmallName="BOM钱箱" ComponentSn="0" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode>
+      <ListInfo Coding="AvailableParamType" CodingName="可处理的参数">
+        <CodeInfo Code="Account" Content="账户参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="BasicPrice" Content="基本价格参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="BlackList" Content="黑名单参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="CardPlan" Content="票卡方案参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="EquParam" Content="设备参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Other" Content="其他参数(编码参数)" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Price" Content="计价参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpecRight" Content="设备权限参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpecUserRight" Content="设备用户权限参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpeciesParam" Content="种类参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Station" Content="运营点参数" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="CardStatus" CodingName="票卡状态">
+        <CodeInfo Code="0" Content="未售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="1" Content="预充值,未售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="3" Content="已售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="4" Content="锁定" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="6" Content="挂失余额已退" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="7" Content="回收" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="8" Content="已挂失" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="9" Content="黑名单" Class1="1" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="DealReason" CodingName="处理方式">
+        <CodeInfo Code="01" Content="儿童超高" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="04" Content="无票" Class1="0" Class2="5" Class3="" />
+        <CodeInfo Code="05" Content="卡余额不足且不充值" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="06" Content="闸门误用" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="07" Content="单程票失效" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="08" Content="储值票失效" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="09" Content="无票乘坐专用车厢" Class1="0" Class2="9" Class3="" />
+        <CodeInfo Code="10" Content="核准储值票失效" Class1="0" Class2="10" Class3="" />
+        <CodeInfo Code="15" Content="日期票滞留超时" Class1="1100" Class2="1" Class3="" />
+        <CodeInfo Code="99" Content="其它" Class1="0" Class2="0" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="IdType" CodingName="证件类型">
+        <CodeInfo Code="01" Content="身份证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="工作证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="学生证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="军官证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="护照" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="99" Content="其他" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PoliticalAmerce" CodingName="行政罚款">
+        <CodeInfo Code="01" Content="无票乘车" Class1="10" Class2="0" Class3="1100;3500" />
+        <CodeInfo Code="02" Content="违规使用优惠车票" Class1="10" Class2="1" Class3="" />
+        <CodeInfo Code="03" Content="车票无效" Class1="10" Class2="1" Class3="" />
+        <CodeInfo Code="04" Content="超程" Class1="5" Class2="2" Class3="" />
+        <CodeInfo Code="99" Content="其他" Class1="1" Class2="2" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PoliticalPay" CodingName="行政支出">
+        <CodeInfo Code="01" Content="卡币" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="卡票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="少找币" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="少出票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="发售无效票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="06" Content="充值失败" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="10" Content="儿童票退款" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="99" Content="其它" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForAddValue" CodingName="快捷充值方式列表">
+        <CodeInfo Code="05000" Content="50  元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="10000" Content="100 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="15000" Content="150 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="20000" Content="200 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="25000" Content="250 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="30000" Content="300 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="35000" Content="350 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="40000" Content="400 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="50000" Content="500 元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForSingleCard" CodingName="单程票售票价格(快捷)表">
+        <CodeInfo Code="1000" Content="10元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="1100" Content="11元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="200" Content="2元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="300" Content="3元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="400" Content="4元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="500" Content="5元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="600" Content="6元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="700" Content="7元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="800" Content="8元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="900" Content="9元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForStored" CodingName="储值票售票价格(快捷)表">
+        <CodeInfo Code="10000" Content="100 元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="SellCardNumbers" CodingName="售票数量">
+        <CodeInfo Code="1" Content="1张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="2" Content="2张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="3" Content="3张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="4" Content="4张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="5" Content="5张" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="Sex" CodingName="性别">
+        <CodeInfo Code="0" Content="男" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="1" Content="女" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="StudentGrade" CodingName="年级">
+        <CodeInfo Code="01" Content="1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="4年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="5年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="06" Content="6年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="07" Content="7年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="08" Content="8年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="09" Content="9年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="11" Content="高中1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="12" Content="高中2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="13" Content="高中3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="21" Content="大学1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="22" Content="大学2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="23" Content="大学3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="24" Content="大学4年级" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="TradeType" CodingName="交易类型">
+        <CodeInfo Code="01" Content="售卡" Class1="售卡" Class2="0000" Class3="0900" />
+        <CodeInfo Code="03" Content="发售出站票" Class1="售出站票" Class2="0000" Class3="0900" />
+        <CodeInfo Code="05" Content="行李票" Class1="售行李票" Class2="0000" Class3="0999" />
+        <CodeInfo Code="08" Content="初始化" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="09" Content="预赋值" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="11" Content="充值(现金)" Class1="充值" Class2="0000" Class3="0900" />
+        <CodeInfo Code="12" Content="充值(转帐)" Class1="" Class2="0000" Class3="2922" />
+        <CodeInfo Code="15" Content="补票" Class1="补票" Class2="0000" Class3="0900" />
+        <CodeInfo Code="21" Content="地铁消费起始" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="22" Content="地铁消费(结算)" Class1="地铁消费" Class2="0000" Class3="0000" />
+        <CodeInfo Code="23" Content="地铁消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="31" Content="巴士消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="32" Content="巴士消费(结算)" Class1="" Class2="0000" Class3="0900" />
+        <CodeInfo Code="33" Content="巴士消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="34" Content="巴士消费(信用结算)" Class1="" Class2="1100" Class3="1911" />
+        <CodeInfo Code="35" Content="的士消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="36" Content="的士消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="37" Content="购物消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="38" Content="购物消费(信用)" Class1="" Class2="0000" Class3="1900" />
+        <CodeInfo Code="61" Content="取消核准" Class1="取消核准" Class2="0000" Class3="0990" />
+        <CodeInfo Code="62" Content="换票退票" Class1="换票退票" Class2="0000" Class3="0990" />
+        <CodeInfo Code="63" Content="核准" Class1="核准" Class2="0000" Class3="0990" />
+        <CodeInfo Code="65" Content="换票售票" Class1="换票售票" Class2="0000" Class3="0990" />
+        <CodeInfo Code="67" Content="抵消" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="71" Content="退卡(限额内)" Class1="退卡" Class2="1110" Class3="0900" />
+        <CodeInfo Code="72" Content="退卡(限额外)" Class1="退卡" Class2="1110" Class3="9999" />
+        <CodeInfo Code="73" Content="退卡(坏卡)" Class1="退卡" Class2="1110" Class3="9999" />
+        <CodeInfo Code="74" Content="挂失" Class1="" Class2="1110" Class3="9990" />
+        <CodeInfo Code="75" Content="退余额" Class1="" Class2="1110" Class3="0900" />
+        <CodeInfo Code="76" Content="异常卡回收" Class1="" Class2="1110" Class3="0900" />
+        <CodeInfo Code="77" Content="黑名单卡锁定" Class1="卡锁定" Class2="1110" Class3="9999" />
+        <CodeInfo Code="78" Content="卡锁定解除" Class1="卡解除" Class2="0000" Class3="9999" />
+        <CodeInfo Code="79" Content="卡提现" Class1="冲正" Class2="1100" Class3="0999" />
+        <CodeInfo Code="80" Content="信用设置" Class1="" Class2="0000" Class3="9990" />
+        <CodeInfo Code="81" Content="信用登记" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="82" Content="信用取消" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="83" Content="超时处理" Class1="滞留超时" Class2="0000" Class3="0990" />
+        <CodeInfo Code="84" Content="清交易起始标记" Class1="清入站标识" Class2="0000" Class3="0990" />
+        <CodeInfo Code="85" Content="客户密码更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="86" Content="客户密码重装" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="87" Content="客户个人信息更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="88" Content="退余额下载" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="89" Content="无入站处理" Class1="无入站处理" Class2="0000" Class3="0990" />
+        <CodeInfo Code="90" Content="卡有效期更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="91" Content="收取票款" Class1="收取票款" Class2="0000" Class3="0999" />
+        <CodeInfo Code="92" Content="行政支付" Class1="乘客事务退款" Class2="1111" Class3="0999" />
+        <CodeInfo Code="93" Content="记名卡申请登记" Class1="" Class2="0000" Class3="9900" />
+        <CodeInfo Code="94" Content="信用登记下载" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="96" Content="激活" Class1="激活" Class2="0000" Class3="9999" />
+        <CodeInfo Code="97" Content="售儿童票" Class1="售儿童票" Class2="0000" Class3="0999" />
+      </ListInfo>
+    </SpeciesCode>
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2004">
+    <!--基本信息-->
+    <BasicInfo Id="2004" Name="DS票务处理机" Protocol="00" Map="2001" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm TimeInterval="5" TimeSourceIP="" StartDelay="5" SellCardType="98" SellCardMaxNumbers="300" PrintDataReserveDays="90" MinTimeError="10" MaxTimeError="3600" IsSingleHistroyInfo="0" IsSecondCheck="1" DisplayTimeOut="10000" DealtypeForBalance="1" CheckNetStateInterval="5000" BomSleepTime="180000" BillFooterLines="10" AllowAddSmallCash="1" TradePrintFlag="11,05,91,92,93,71,72,03,74,83,84,15" TradePrintCounts="3" TradeDataReserveDays="90" TimeSourcePort="50046" SystemName="深圳地铁" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="乘客显示器" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="15" BigName="票据打印机" SmallId="1501" SmallName="票据打印机" ComponentSn="0" DefaultMap="1501" StopAlarm="212" UseLife="2121" TimesLimit="212" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="2122112" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1706" SmallName="BOM钱箱" ComponentSn="0" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode>
+      <ListInfo Coding="AvailableParamType" CodingName="可处理的参数">
+        <CodeInfo Code="Account" Content="账户参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="BasicPrice" Content="基本价格参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="BlackList" Content="黑名单参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="CardPlan" Content="票卡方案参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="EquParam" Content="设备参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Other" Content="其他参数(编码参数)" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Price" Content="计价参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpecRight" Content="设备权限参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpecUserRight" Content="设备用户权限参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="SpeciesParam" Content="种类参数" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="Station" Content="运营点参数" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="CardStatus" CodingName="票卡状态">
+        <CodeInfo Code="0" Content="未售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="1" Content="预充值,未售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="3" Content="已售" Class1="0" Class2="" Class3="" />
+        <CodeInfo Code="4" Content="锁定" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="6" Content="挂失余额已退" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="7" Content="回收" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="8" Content="已挂失" Class1="1" Class2="" Class3="" />
+        <CodeInfo Code="9" Content="黑名单" Class1="1" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="DealReason" CodingName="处理方式">
+        <CodeInfo Code="01" Content="儿童超高" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="04" Content="无票" Class1="0" Class2="5" Class3="" />
+        <CodeInfo Code="05" Content="卡余额不足且不充值" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="06" Content="闸门误用" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="07" Content="单程票失效" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="08" Content="储值票失效" Class1="0" Class2="4" Class3="" />
+        <CodeInfo Code="09" Content="无票乘坐专用车厢" Class1="0" Class2="9" Class3="" />
+        <CodeInfo Code="10" Content="核准储值票失效" Class1="0" Class2="10" Class3="" />
+        <CodeInfo Code="15" Content="日期票滞留超时" Class1="1100" Class2="1" Class3="" />
+        <CodeInfo Code="99" Content="其它" Class1="0" Class2="0" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="IdType" CodingName="证件类型">
+        <CodeInfo Code="01" Content="身份证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="工作证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="学生证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="军官证" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="护照" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="99" Content="其他" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PoliticalAmerce" CodingName="行政罚款">
+        <CodeInfo Code="01" Content="无票乘车" Class1="10" Class2="0" Class3="1100;3500" />
+        <CodeInfo Code="02" Content="违规使用优惠车票" Class1="10" Class2="1" Class3="" />
+        <CodeInfo Code="03" Content="车票无效" Class1="10" Class2="1" Class3="" />
+        <CodeInfo Code="04" Content="超程" Class1="5" Class2="2" Class3="" />
+        <CodeInfo Code="99" Content="其他" Class1="1" Class2="2" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PoliticalPay" CodingName="行政支出">
+        <CodeInfo Code="01" Content="卡币" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="卡票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="少找币" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="少出票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="发售无效票" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="06" Content="充值失败" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="10" Content="儿童票退款" Class1="0" Class2="0" Class3="" />
+        <CodeInfo Code="99" Content="其它" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForAddValue" CodingName="快捷充值方式列表">
+        <CodeInfo Code="05000" Content="50  元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="10000" Content="100 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="15000" Content="150 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="20000" Content="200 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="25000" Content="250 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="30000" Content="300 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="35000" Content="350 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="40000" Content="400 元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="50000" Content="500 元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForSingleCard" CodingName="单程票售票价格(快捷)表">
+        <CodeInfo Code="1000" Content="10元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="1100" Content="11元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="200" Content="2元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="300" Content="3元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="400" Content="4元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="500" Content="5元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="600" Content="6元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="700" Content="7元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="800" Content="8元" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="900" Content="9元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="PriceForStored" CodingName="储值票售票价格(快捷)表">
+        <CodeInfo Code="10000" Content="100 元" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="SellCardNumbers" CodingName="售票数量">
+        <CodeInfo Code="1" Content="1张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="2" Content="2张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="3" Content="3张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="4" Content="4张" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="5" Content="5张" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="Sex" CodingName="性别">
+        <CodeInfo Code="0" Content="男" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="1" Content="女" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="StudentGrade" CodingName="年级">
+        <CodeInfo Code="01" Content="1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="02" Content="2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="03" Content="3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="04" Content="4年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="05" Content="5年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="06" Content="6年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="07" Content="7年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="08" Content="8年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="09" Content="9年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="11" Content="高中1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="12" Content="高中2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="13" Content="高中3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="21" Content="大学1年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="22" Content="大学2年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="23" Content="大学3年级" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="24" Content="大学4年级" Class1="" Class2="" Class3="" />
+      </ListInfo>
+      <ListInfo Coding="TradeType" CodingName="交易类型">
+        <CodeInfo Code="01" Content="售卡" Class1="售卡" Class2="0000" Class3="0900" />
+        <CodeInfo Code="03" Content="发售出站票" Class1="售出站票" Class2="0000" Class3="0900" />
+        <CodeInfo Code="05" Content="行李票" Class1="售行李票" Class2="0000" Class3="0999" />
+        <CodeInfo Code="08" Content="初始化" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="09" Content="预赋值" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="11" Content="充值(现金)" Class1="充值" Class2="0000" Class3="0900" />
+        <CodeInfo Code="12" Content="充值(转帐)" Class1="" Class2="0000" Class3="2922" />
+        <CodeInfo Code="15" Content="补票" Class1="补票" Class2="0000" Class3="0900" />
+        <CodeInfo Code="21" Content="地铁消费起始" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="22" Content="地铁消费(结算)" Class1="地铁消费" Class2="0000" Class3="0000" />
+        <CodeInfo Code="23" Content="地铁消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="31" Content="巴士消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="32" Content="巴士消费(结算)" Class1="" Class2="0000" Class3="0900" />
+        <CodeInfo Code="33" Content="巴士消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="34" Content="巴士消费(信用结算)" Class1="" Class2="1100" Class3="1911" />
+        <CodeInfo Code="35" Content="的士消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="36" Content="的士消费(信用)" Class1="" Class2="0000" Class3="1911" />
+        <CodeInfo Code="37" Content="购物消费" Class1="" Class2="1100" Class3="0900" />
+        <CodeInfo Code="38" Content="购物消费(信用)" Class1="" Class2="0000" Class3="1900" />
+        <CodeInfo Code="61" Content="取消核准" Class1="取消核准" Class2="0000" Class3="0990" />
+        <CodeInfo Code="62" Content="换票退票" Class1="换票退票" Class2="0000" Class3="0990" />
+        <CodeInfo Code="63" Content="核准" Class1="核准" Class2="0000" Class3="0990" />
+        <CodeInfo Code="65" Content="换票售票" Class1="换票售票" Class2="0000" Class3="0990" />
+        <CodeInfo Code="67" Content="抵消" Class1="" Class2="0000" Class3="0000" />
+        <CodeInfo Code="71" Content="退卡(限额内)" Class1="退卡" Class2="1110" Class3="0900" />
+        <CodeInfo Code="72" Content="退卡(限额外)" Class1="退卡" Class2="1110" Class3="9999" />
+        <CodeInfo Code="73" Content="退卡(坏卡)" Class1="退卡" Class2="1110" Class3="9999" />
+        <CodeInfo Code="74" Content="挂失" Class1="" Class2="1110" Class3="9990" />
+        <CodeInfo Code="75" Content="退余额" Class1="" Class2="1110" Class3="0900" />
+        <CodeInfo Code="76" Content="异常卡回收" Class1="" Class2="1110" Class3="0900" />
+        <CodeInfo Code="77" Content="黑名单卡锁定" Class1="卡锁定" Class2="1110" Class3="9999" />
+        <CodeInfo Code="78" Content="卡锁定解除" Class1="卡解除" Class2="0000" Class3="9999" />
+        <CodeInfo Code="79" Content="卡提现" Class1="冲正" Class2="1100" Class3="0999" />
+        <CodeInfo Code="80" Content="信用设置" Class1="" Class2="0000" Class3="9990" />
+        <CodeInfo Code="81" Content="信用登记" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="82" Content="信用取消" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="83" Content="超时处理" Class1="滞留超时" Class2="0000" Class3="0990" />
+        <CodeInfo Code="84" Content="清交易起始标记" Class1="清入站标识" Class2="0000" Class3="0990" />
+        <CodeInfo Code="85" Content="客户密码更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="86" Content="客户密码重装" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="87" Content="客户个人信息更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="88" Content="退余额下载" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="89" Content="无入站处理" Class1="无入站处理" Class2="0000" Class3="0990" />
+        <CodeInfo Code="90" Content="卡有效期更改" Class1="" Class2="0000" Class3="9999" />
+        <CodeInfo Code="91" Content="收取票款" Class1="收取票款" Class2="0000" Class3="0999" />
+        <CodeInfo Code="92" Content="行政支付" Class1="乘客事务退款" Class2="1111" Class3="0999" />
+        <CodeInfo Code="93" Content="记名卡申请登记" Class1="" Class2="0000" Class3="9900" />
+        <CodeInfo Code="94" Content="信用登记下载" Class1="" Class2="" Class3="" />
+        <CodeInfo Code="96" Content="激活" Class1="激活" Class2="0000" Class3="9999" />
+        <CodeInfo Code="97" Content="售儿童票" Class1="售儿童票" Class2="0000" Class3="0999" />
+      </ListInfo>
+    </SpeciesCode>
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2101">
+    <!--基本信息-->
+    <BasicInfo Id="2101" Name="gxmis自动增值机" Protocol="00" Map="2101" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm card.reader.islog="1" LocalLogSvrPort="50051" LogSvrIP="" LocalLogSaveCount="1024" LogSvrPort="50050" ticket.reader.validdays="1" cash.note.MaxValue="1000" SubHostName="根据实际情况配置" SubMaxReconnectTime="5" SubMaxWaitTimeout="10" SubPort="50041" SubSvrAddr="260" SubValidTime="5" ticket.MaxBadTicketNum="3" equipment.WorkBeginTime="05:00:00" equipment.AllWorkEndTime="03:30:00" cash.note.FullNoteBackBox="1000" ticket.transport.TicketBadMaxWarning="200" cash.coin.WarningReturnVolume="2500" ticket.transport.Box1.iCardType="98" ticket.transport.Box2.iCardType="98" ticket.reader.islog="0" equipment.CustomerOperationTime="45000" card.reader.OnceMaxAddValue="30000" card.reader.MaxCardBalance="100000" SubPersist="0" cash.note.iAddValueMinValue="5000" cash.coin.MaxChangeMoney="1000" cash.note.availableNotes="50,100" cash.note.isLogdrv="0" ticket.reader.chSamParam="1,100000,3" ticket.reader.chNetParam="10.5.0.7,50030,263,1.01,5" ticket.transport.IsBeforehand="0" ticket.transport.InvTicketProcessManner="0" ticket.transport.bufbackdur="200" ticket.transport.bufoutdur="200" ticket.transport.rwbackdur="200" ticket.transport.rwbufdur="200" ticket.transport.rwoutdur="200" cash.note.FullWarningNoteBackBox="800" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" ticket.transport.TicketReturnWarning="800" ticket.transport.TicketReturnMaxWarning="1000" ticket.transport.TicketBadWarning="180" card.reader.MinCardBalance="-1000" equipment.loglevel="0" equipment.checkprivilege="1" equipment.RebootBeginTime="05:30:10" equipment.RebootEndTime="05:30:30" equipment.WorkEndTimePreignition="600" equipment.NOOPERATIONTIME="300000" equipment.BusinessType="0" equipment.changeorder="0" ticket.IsCheck="1" ticket.IsUseBuffer="0" ticket.MaxDisplayNum="8" ticket.MaxTicketOutErr="3" cash.coin.availableCoins="15" cash.note.BufFullOPMode="0" equipment.checkDoorReader="1" card.reader.chNetParam="10.1.0.200,50030,268,1.01,5" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="验票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="02" BigName="纸币单元" SmallId="0202" SmallName="GND纸币识别器" ComponentSn="0" DefaultMap="0201" StopAlarm="1000" UseLife="110000" TimesLimit="1010" TimesAlarm="140" MaintainPeriods="1000" Alarm="100" CarePeriods="1010" Guarantee="100000" />
+      <ComponentInformation BigId="05" BigName="方卡传送机构" SmallId="0501" SmallName="MCM方卡传送机构" ComponentSn="0" DefaultMap="0501" StopAlarm="1223" UseLife="32231" TimesLimit="1221" TimesAlarm="321" MaintainPeriods="2112" Alarm="3223" CarePeriods="111" Guarantee="21332132" />
+      <ComponentInformation BigId="07" BigName="触摸屏,大类" SmallId="0702" SmallName="触摸屏" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="08" BigName="条屏,大类" SmallId="0801" SmallName="条屏显示" ComponentSn="0" DefaultMap="0801" StopAlarm="2323" UseLife="3223" TimesLimit="32231" TimesAlarm="23123" MaintainPeriods="231231" Alarm="21323" CarePeriods="32123" Guarantee="32123231" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="MCM串口驱动乘客显示器" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="15" BigName="票据打印机" SmallId="1501" SmallName="BOM一代使用的票据打印机" ComponentSn="0" DefaultMap="1501" StopAlarm="212" UseLife="2121" TimesLimit="212" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="2122112" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1709" SmallName="纸币回收箱" ComponentSn="0" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="18" BigName="密码键盘" SmallId="1801" SmallName="BOM、TVM使用一代密码键盘" ComponentSn="0" DefaultMap="1801" StopAlarm="2121" UseLife="2121" TimesLimit="212" TimesAlarm="21" MaintainPeriods="2121" Alarm="212" CarePeriods="21" Guarantee="12212121" />
+      <ComponentInformation BigId="19" BigName="求助按钮" SmallId="1901" SmallName="设备求助按钮" ComponentSn="0" DefaultMap="1901" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="权限认证" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2102">
+    <!--基本信息-->
+    <BasicInfo Id="2102" Name="mcm自动增值机" Protocol="99" Map="bmp\avm" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2103">
+    <!--基本信息-->
+    <BasicInfo Id="2103" Name="gxmis3期自动增值机" Protocol="99" Map="2101" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="00" ModeName="正常通行模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="03" ModeName="紧急放行模式" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="验票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="02" BigName="纸币单元" SmallId="0202" SmallName="GND纸币识别器" ComponentSn="0" DefaultMap="0201" StopAlarm="1000" UseLife="110000" TimesLimit="1010" TimesAlarm="140" MaintainPeriods="1000" Alarm="100" CarePeriods="1010" Guarantee="100000" />
+      <ComponentInformation BigId="05" BigName="方卡传送机构" SmallId="0501" SmallName="MCM方卡传送机构" ComponentSn="0" DefaultMap="0501" StopAlarm="1223" UseLife="32231" TimesLimit="1221" TimesAlarm="321" MaintainPeriods="2112" Alarm="3223" CarePeriods="111" Guarantee="21332132" />
+      <ComponentInformation BigId="07" BigName="触摸屏,大类" SmallId="0702" SmallName="触摸屏" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="08" BigName="条屏,大类" SmallId="0801" SmallName="条屏显示" ComponentSn="0" DefaultMap="0801" StopAlarm="2323" UseLife="3223" TimesLimit="32231" TimesAlarm="23123" MaintainPeriods="231231" Alarm="21323" CarePeriods="32123" Guarantee="32123231" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="MCM串口驱动乘客显示器" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="15" BigName="票据打印机" SmallId="1501" SmallName="BOM一代使用的票据打印机" ComponentSn="0" DefaultMap="1501" StopAlarm="212" UseLife="2121" TimesLimit="212" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="2122112" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1709" SmallName="纸币回收箱" ComponentSn="0" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="18" BigName="密码键盘" SmallId="1801" SmallName="BOM、TVM使用一代密码键盘" ComponentSn="0" DefaultMap="1801" StopAlarm="2121" UseLife="2121" TimesLimit="212" TimesAlarm="21" MaintainPeriods="2121" Alarm="212" CarePeriods="21" Guarantee="12212121" />
+      <ComponentInformation BigId="19" BigName="求助按钮" SmallId="1901" SmallName="设备求助按钮" ComponentSn="0" DefaultMap="1901" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="权限认证" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2104">
+    <!--基本信息-->
+    <BasicInfo Id="2104" Name="DS自动增值机" Protocol="99" Map="2101" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm DAS.banknote.Denomination="50100" gc.notebacklight="0" DAS.reader.devapptype="4" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.equipment.type="AVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" card.reader.islog="0" cash.note.iAddValueMaxValue="" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.checkDoorReader="1" DAS.reader.antenna="11111111" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="验票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="02" BigName="纸币单元" SmallId="0202" SmallName="GND纸币识别器" ComponentSn="0" DefaultMap="0201" StopAlarm="1000" UseLife="110000" TimesLimit="1010" TimesAlarm="140" MaintainPeriods="1000" Alarm="100" CarePeriods="1010" Guarantee="100000" />
+      <ComponentInformation BigId="05" BigName="方卡传送机构" SmallId="0501" SmallName="方卡传送机构" ComponentSn="0" DefaultMap="0501" StopAlarm="1223" UseLife="32231" TimesLimit="1221" TimesAlarm="321" MaintainPeriods="2112" Alarm="3223" CarePeriods="111" Guarantee="21332132" />
+      <ComponentInformation BigId="07" BigName="触摸屏,大类" SmallId="0702" SmallName="触摸屏" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="08" BigName="条屏,大类" SmallId="0801" SmallName="条屏显示" ComponentSn="0" DefaultMap="0801" StopAlarm="2323" UseLife="3223" TimesLimit="32231" TimesAlarm="23123" MaintainPeriods="231231" Alarm="21323" CarePeriods="32123" Guarantee="32123231" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="MCM串口驱动乘客显示器" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="15" BigName="票据打印机" SmallId="1501" SmallName="票据打印机" ComponentSn="0" DefaultMap="1501" StopAlarm="212" UseLife="2121" TimesLimit="212" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="2122112" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1709" SmallName="纸币回收箱" ComponentSn="0" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="18" BigName="密码键盘" SmallId="1801" SmallName="密码键盘" ComponentSn="0" DefaultMap="1801" StopAlarm="2121" UseLife="2121" TimesLimit="212" TimesAlarm="21" MaintainPeriods="2121" Alarm="212" CarePeriods="21" Guarantee="12212121" />
+      <ComponentInformation BigId="19" BigName="求助按钮" SmallId="1901" SmallName="设备求助按钮" ComponentSn="0" DefaultMap="1901" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="权限认证" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2201">
+    <!--基本信息-->
+    <BasicInfo Id="2201" Name="gxmis自动售票机" Protocol="00" Map="2201" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm card.reader.islog="0" LocalLogSvrPort="50051" LogSvrIP="" LocalLogSaveCount="1024" LogSvrPort="50050" ticket.reader.validdays="1" cash.note.MaxValue="1000" SubHostName="根据实际情况配置" SubMaxReconnectTime="5" SubMaxWaitTimeout="10" SubPort="50041" SubSvrAddr="260" SubValidTime="5" ticket.MaxBadTicketNum="3" equipment.WorkBeginTime="05:00:00" equipment.AllWorkEndTime="03:30:00" cash.note.FullNoteBackBox="1000" ticket.transport.TicketBadMaxWarning="200" cash.coin.WarningReturnVolume="2500" ticket.transport.Box1.iCardType="98" ticket.transport.Box2.iCardType="98" ticket.reader.islog="0" equipment.CustomerOperationTime="60000" card.reader.OnceMaxAddValue="30000" card.reader.MaxCardBalance="100000" SubPersist="0" cash.note.iAddValueMinValue="5000" cash.coin.MaxChangeMoney="1000" cash.note.availableNotes="5" cash.note.isLogdrv="0" ticket.reader.chSamParam="1,100000,3" ticket.reader.chNetParam="10.5.0.7,50030,263,1.01,5" ticket.transport.IsBeforehand="0" ticket.transport.InvTicketProcessManner="0" card.reader.chNetParam="10.5.0.7,50030,263,1.01,5" ticket.transport.bufbackdur="500" ticket.transport.bufoutdur="500" ticket.transport.rwbackdur="500" ticket.transport.rwbufdur="500" ticket.transport.rwoutdur="500" cash.note.FullWarningNoteBackBox="800" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" barscreen.buadrate="19200" barscreen.BarScreenImplDllFileName="equ_BarscreenImpl_mcm.dll" notechange.Box.AlarmNum1="20" notechange.isLog="1" notechange.BillCountOrder="228" notechange.Box.AlarmNum="5" notechange.baudrate="9600" notechange.Box1.MagnetPos="bd" notechange.Box1.NoteValue="1000" notechange.Box2.MagnetPos="ad" notechange.Box2.NoteValue="500" notechange.BoxR.AlarmNum="100" notechange.com="10" notechange.DrvDllFileName="equ_notechangeImpl_fujitsu.dll" notechange.EquCommandType="1" notechange.iLenMin.100="120" notechange.iLenMin.1000="137" notechange.iLenMin.200="120" notechange.iLenMin.2000="135" notechange.iLenMin.500="130" notechange.iLenMin.5000="140" notechange.install="0" notechange.iThick="13" notechange.MaxPickupNum="2" notechange.MaxRejectCnt="10" notechange.MaxRetryTimes="2" notechange.MaxSelfTestCnt="2" notechange.MaxChangeMoney="1500" gc.notebacklight.list="5,10,20" equipment.changeorder="0" equipment.AF_NOTECANCHANGE="0" ticket.transport.TicketReturnWarning="800" ticket.transport.TicketReturnMaxWarning="1000" ticket.transport.TicketBadWarning="180" card.reader.MinCardBalance="-1000" equipment.WorkEndTimePreignition="600" equipment.NOOPERATIONTIME="300000" equipment.BusinessType="0" ticket.IsCheck="1" ticket.IsUseBuffer="0" ticket.MaxDisplayNum="8" ticket.MaxTicketOutErr="3" cash.coin.availableCoins="15" cash.note.BufFullOPMode="0" equipment.checkDoorReader="1" equipment.loglevel="0" equipment.checkprivilege="1" equipment.RebootBeginTime="05:30:10" equipment.RebootEndTime="05:30:30" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0103" SmallName="门禁读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="1000" TimesLimit="100" TimesAlarm="1000" MaintainPeriods="100" Alarm="1000" CarePeriods="1000" Guarantee="1000" />
+      <ComponentInformation BigId="02" BigName="纸币单元" SmallId="0202" SmallName="GND纸币识别器" ComponentSn="0" DefaultMap="0201" StopAlarm="1000" UseLife="110000" TimesLimit="1010" TimesAlarm="140" MaintainPeriods="1000" Alarm="100" CarePeriods="1010" Guarantee="100000" />
+      <ComponentInformation BigId="03" BigName="硬币单元" SmallId="0301" SmallName="MCM硬币单元" ComponentSn="0" DefaultMap="0301" StopAlarm="1000" UseLife="4245" TimesLimit="1000" TimesAlarm="221" MaintainPeriods="10000" Alarm="1202" CarePeriods="1000" Guarantee="100001" />
+      <ComponentInformation BigId="04" BigName="发卡模块" SmallId="0402" SmallName="MCM圆卡发卡机构" ComponentSn="0" DefaultMap="0401" StopAlarm="1221" UseLife="233232" TimesLimit="121" TimesAlarm="223" MaintainPeriods="211" Alarm="2332" CarePeriods="111" Guarantee="231213" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0602" SmallName="MCM一代TVM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="112" UseLife="2323" TimesLimit="3223" TimesAlarm="2323" MaintainPeriods="2332" Alarm="23232" CarePeriods="2332" Guarantee="2323343" />
+      <ComponentInformation BigId="07" BigName="触摸屏,大类" SmallId="0702" SmallName="声波触摸屏" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="08" BigName="条屏,大类" SmallId="0801" SmallName="条屏显示" ComponentSn="0" DefaultMap="0801" StopAlarm="2323" UseLife="3223" TimesLimit="32231" TimesAlarm="23123" MaintainPeriods="231231" Alarm="21323" CarePeriods="32123" Guarantee="32123231" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="TFT显示屏" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1604" SmallName="出票的hopper" ComponentSn="0" DefaultMap="1601" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱" ComponentSn="0" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1603" SmallName="废票箱" ComponentSn="0" DefaultMap="1601" StopAlarm="23231" UseLife="233" TimesLimit="231" TimesAlarm="232" MaintainPeriods="231" Alarm="232" CarePeriods="213" Guarantee="23333333" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1602" SmallName="储票箱" ComponentSn="1" DefaultMap="1601" StopAlarm="123" UseLife="23" TimesLimit="22" TimesAlarm="22" MaintainPeriods="123" Alarm="232" CarePeriods="2323" Guarantee="21133223" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1602" SmallName="储票箱" ComponentSn="2" DefaultMap="1601" StopAlarm="123" UseLife="23" TimesLimit="22" TimesAlarm="22" MaintainPeriods="123" Alarm="232" CarePeriods="2323" Guarantee="21133223" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1709" SmallName="纸币回收箱" ComponentSn="0" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1704" SmallName="硬币加币箱1元" ComponentSn="2" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1708" SmallName="纸币找零钱箱1" ComponentSn="1" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1715" SmallName="纸币找零回收箱" ComponentSn="0" DefaultMap="1715" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1708" SmallName="纸币找零钱箱2" ComponentSn="2" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="3" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="1" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="5" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="6" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1702" SmallName="硬币回收箱" ComponentSn="0" DefaultMap="1701" StopAlarm="222" UseLife="212" TimesLimit="221" TimesAlarm="122" MaintainPeriods="21" Alarm="22" CarePeriods="212" Guarantee="21222213" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1704" SmallName="硬币加币箱5角" ComponentSn="1" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1722" SmallName="纸币找零模块" ComponentSn="0" DefaultMap="1722" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="19" BigName="求助按钮" SmallId="1901" SmallName="AVM,TVM设备求助按钮" ComponentSn="0" DefaultMap="1901" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="软件部分" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8101" SmallName="数据处理" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="现金管理权限认证" ComponentSn="2" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="维护界面权限认证" ComponentSn="1" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="90" BigName="主业务模块 " SmallId="9001" SmallName="主业务模块" ComponentSn="0" DefaultMap="9001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="91" BigName="网络状态" SmallId="9101" SmallName="网络状态" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2203">
+    <!--基本信息-->
+    <BasicInfo Id="2203" Name="gxmis3期自动售票机" Protocol="00" Map="2201" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="03" ModeName="紧急放行模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="08" ModeName="关闭服务" IfDefault="0" ModeExplain="" />
+      <Command ModeId="11" ModeName="进、出站次序免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="12" ModeName="乘车时间免检" IfDefault="0" ModeExplain="" />
+      <Command ModeId="13" ModeName="车票日期免检" IfDefault="0" ModeExplain="" />
+      <Command ModeId="00" ModeName="正常通行模式" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="02" BigName="纸币单元" SmallId="0202" SmallName="GND纸币识别器" ComponentSn="0" DefaultMap="0201" StopAlarm="1000" UseLife="110000" TimesLimit="1010" TimesAlarm="140" MaintainPeriods="1000" Alarm="100" CarePeriods="1010" Guarantee="100000" />
+      <ComponentInformation BigId="03" BigName="硬币单元" SmallId="0301" SmallName="硬币单元" ComponentSn="0" DefaultMap="0301" StopAlarm="1000" UseLife="4245" TimesLimit="1000" TimesAlarm="221" MaintainPeriods="10000" Alarm="1202" CarePeriods="1000" Guarantee="100001" />
+      <ComponentInformation BigId="04" BigName="发卡模块" SmallId="0402" SmallName="圆卡发卡机构" ComponentSn="0" DefaultMap="0401" StopAlarm="1221" UseLife="233232" TimesLimit="121" TimesAlarm="223" MaintainPeriods="211" Alarm="2332" CarePeriods="111" Guarantee="231213" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0602" SmallName="TVM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="112" UseLife="2323" TimesLimit="3223" TimesAlarm="2323" MaintainPeriods="2332" Alarm="23232" CarePeriods="2332" Guarantee="2323343" />
+      <ComponentInformation BigId="07" BigName="触摸屏,大类" SmallId="0702" SmallName="声波触摸屏" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="08" BigName="条屏,大类" SmallId="0801" SmallName="条屏显示" ComponentSn="0" DefaultMap="0801" StopAlarm="2323" UseLife="3223" TimesLimit="32231" TimesAlarm="23123" MaintainPeriods="231231" Alarm="21323" CarePeriods="32123" Guarantee="32123231" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="TFT显示屏" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1603" SmallName="废票箱" ComponentSn="0" DefaultMap="1601" StopAlarm="23231" UseLife="233" TimesLimit="231" TimesAlarm="232" MaintainPeriods="231" Alarm="232" CarePeriods="213" Guarantee="23333333" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1602" SmallName="储票箱" ComponentSn="1" DefaultMap="1601" StopAlarm="123" UseLife="23" TimesLimit="22" TimesAlarm="22" MaintainPeriods="123" Alarm="232" CarePeriods="2323" Guarantee="21133223" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1602" SmallName="储票箱" ComponentSn="2" DefaultMap="1601" StopAlarm="123" UseLife="23" TimesLimit="22" TimesAlarm="22" MaintainPeriods="123" Alarm="232" CarePeriods="2323" Guarantee="21133223" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1604" SmallName="出票的hopper" ComponentSn="0" DefaultMap="1601" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱" ComponentSn="0" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1735" SmallName="三期TVM硬币备用找零箱2" ComponentSn="2" DefaultMap="1703" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1735" SmallName="三期TVM硬币备用找零箱1" ComponentSn="1" DefaultMap="1703" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1734" SmallName="三期TVM硬币循环找零箱2" ComponentSn="2" DefaultMap="1701" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1734" SmallName="三期TVM硬币循环找零箱1" ComponentSn="1" DefaultMap="1701" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1731" SmallName="三期TVM纸币循环箱2" ComponentSn="2" DefaultMap="1708" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1731" SmallName="三期TVM纸币循环箱1" ComponentSn="1" DefaultMap="1708" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="3" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱1" ComponentSn="1" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="5" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱" ComponentSn="6" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1702" SmallName="硬币回收箱" ComponentSn="0" DefaultMap="1701" StopAlarm="222" UseLife="212" TimesLimit="221" TimesAlarm="122" MaintainPeriods="21" Alarm="22" CarePeriods="212" Guarantee="21222213" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1704" SmallName="五角硬币加币箱" ComponentSn="1" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1704" SmallName="一元硬币加币箱" ComponentSn="2" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1709" SmallName="纸币回收箱" ComponentSn="0" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1722" SmallName="纸币找零模块" ComponentSn="0" DefaultMap="1722" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1708" SmallName="纸币找零钱箱1" ComponentSn="1" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1715" SmallName="纸币找零回收箱" ComponentSn="0" DefaultMap="1715" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1708" SmallName="纸币找零钱箱2" ComponentSn="2" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="19" BigName="求助按钮" SmallId="1901" SmallName="AVM,TVM设备求助按钮" ComponentSn="0" DefaultMap="1901" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="现金管理权限认证" ComponentSn="2" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="维护界面权限认证" ComponentSn="1" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8101" SmallName="数据处理" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2204">
+    <!--基本信息-->
+    <BasicInfo Id="2204" Name="DS自动售票机" Protocol="00" Map="2201" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" ticket.transport.TicketWarning1="10" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" DAS.coin.recyclebox.max="5000" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="02" BigName="纸币单元" SmallId="0202" SmallName="GND纸币识别器" ComponentSn="0" DefaultMap="0201" StopAlarm="1000" UseLife="110000" TimesLimit="1010" TimesAlarm="140" MaintainPeriods="1000" Alarm="100" CarePeriods="1010" Guarantee="100000" />
+      <ComponentInformation BigId="03" BigName="硬币单元" SmallId="0301" SmallName="硬币单元" ComponentSn="0" DefaultMap="0301" StopAlarm="1000" UseLife="4245" TimesLimit="1000" TimesAlarm="221" MaintainPeriods="10000" Alarm="1202" CarePeriods="1000" Guarantee="100001" />
+      <ComponentInformation BigId="04" BigName="发卡模块" SmallId="0402" SmallName="圆卡发卡机构" ComponentSn="0" DefaultMap="0401" StopAlarm="1221" UseLife="233232" TimesLimit="121" TimesAlarm="223" MaintainPeriods="211" Alarm="2332" CarePeriods="111" Guarantee="231213" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0602" SmallName="TVM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="112" UseLife="2323" TimesLimit="3223" TimesAlarm="2323" MaintainPeriods="2332" Alarm="23232" CarePeriods="2332" Guarantee="2323343" />
+      <ComponentInformation BigId="07" BigName="触摸屏,大类" SmallId="0702" SmallName="声波触摸屏" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="08" BigName="条屏,大类" SmallId="0801" SmallName="条屏显示" ComponentSn="0" DefaultMap="0801" StopAlarm="2323" UseLife="3223" TimesLimit="32231" TimesAlarm="23123" MaintainPeriods="231231" Alarm="21323" CarePeriods="32123" Guarantee="32123231" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="TFT显示屏" ComponentSn="0" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱" ComponentSn="0" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1603" SmallName="废票箱" ComponentSn="0" DefaultMap="1601" StopAlarm="23231" UseLife="233" TimesLimit="231" TimesAlarm="232" MaintainPeriods="231" Alarm="232" CarePeriods="213" Guarantee="23333333" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1602" SmallName="储票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="123" UseLife="23" TimesLimit="22" TimesAlarm="22" MaintainPeriods="123" Alarm="232" CarePeriods="2323" Guarantee="21133223" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1602" SmallName="储票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="123" UseLife="23" TimesLimit="22" TimesAlarm="22" MaintainPeriods="123" Alarm="232" CarePeriods="2323" Guarantee="21133223" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1604" SmallName="出票的hopper" ComponentSn="0" DefaultMap="1601" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱3" ComponentSn="5" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱4" ComponentSn="6" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1702" SmallName="硬币回收箱" ComponentSn="0" DefaultMap="1701" StopAlarm="222" UseLife="212" TimesLimit="221" TimesAlarm="122" MaintainPeriods="21" Alarm="22" CarePeriods="212" Guarantee="21222213" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1704" SmallName="硬币加币箱5角" ComponentSn="1" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1704" SmallName="硬币加币箱1元" ComponentSn="2" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1709" SmallName="纸币回收箱" ComponentSn="0" DefaultMap="1703" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1722" SmallName="纸币找零模块" ComponentSn="0" DefaultMap="1722" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1708" SmallName="纸币找零钱箱1" ComponentSn="1" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1715" SmallName="纸币找零回收箱" ComponentSn="0" DefaultMap="1715" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1708" SmallName="纸币找零钱箱2" ComponentSn="2" DefaultMap="1708" StopAlarm="22121" UseLife="2121" TimesLimit="2121" TimesAlarm="2121" MaintainPeriods="2121" Alarm="2121" CarePeriods="212" Guarantee="21212121" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱2" ComponentSn="3" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="17" BigName="钱箱" SmallId="1701" SmallName="硬币找零箱1" ComponentSn="1" DefaultMap="1701" StopAlarm="2122" UseLife="23233" TimesLimit="213" TimesAlarm="23" MaintainPeriods="213" Alarm="23" CarePeriods="23" Guarantee="21312321" />
+      <ComponentInformation BigId="19" BigName="求助按钮" SmallId="1901" SmallName="AVM,TVM设备求助按钮" ComponentSn="0" DefaultMap="1901" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="现金管理权限认证" ComponentSn="2" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8102" SmallName="维护界面权限认证" ComponentSn="1" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="81" BigName="数据 处理" SmallId="8101" SmallName="数据处理" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="90" BigName="主业务模块 " SmallId="9001" SmallName="主业务模块" ComponentSn="0" DefaultMap="9001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="91" BigName="网络状态" SmallId="9101" SmallName="网络状态" ComponentSn="0" DefaultMap="0701" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="2301">
+    <!--基本信息-->
+    <BasicInfo Id="2301" Name="gxmis自动验票机" Protocol="00" Map="2301" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4001">
+    <!--基本信息-->
+    <BasicInfo Id="4001" Name="gxmis入站闸机" Protocol="00" Map="4001" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm CreditFlag="0" inoutswitch="" StartTime="050000" ShowErrorCodeFlag="1" RunPoint="040000" CardRecycleAlarm="1" InOutAspect="2" CanEntranceCheck="1" AutoCancelDelayTime="30" BoxInf="/GAT_T1,900,,1000,1000,/GAT_T2,900,,1000,1000," LineID="0000" HeightChk="0" EndTime="273000" ExecMethod="7" OnOffSpeed="5" PMaxMemo="6" UseTestCard="0" Select="3" TOImpegno="20" AlarmEnable="1" TurnoffArrowLight="0" TurnoffBackLight="1" TurnoffIndicatorLight="0" IsLackOfSAM="0" CompareTerminalCode="1" CardRecycleErrorFlag="1" MaintenanceShowIn="1" SoundSize="100" SubPort="50041" SubValidTime="5" SubSvrAddr="260" SubMaxWaitTimeout="1" SubMaxReconnectTime="5" SubPersist="0" SubHostName="10.8.3.131" LocalLogSaveCount="1024" LogSvrIP="" LogSvrPort="50050" LocalLogSvrPort="50051" TradeFileSaveDays="7" MaxUseSize="30" AffairFileSaveDays="7" TResAll="10" TRitChiudi="1" Audit.EquipmentAbnormal="0" Audit.EquipmentWork="0" Audit.MoneyAbnormal="0" Audit.MoneyIncome="0" MaintainInterval="1440" ModoCntr="3" PAllAIPause="3" PDelayAck="4" PFotoSafety="0" PGenerali="26" PReader="0" PSetManual="0" PTFilterAlarm="5" PTFilterFault="0" PTOZona1="10" PTOZona2="10" Audit.TicketAbnormal="0" Audit.TicketIncome="0" Audit.TicketStock="0" AuditInterval="15" CloseZone="0" ConvsZone="1" CorporationID="268" EnAllarmi1="255" AlarmSetting="6150" PTOZona3="8" PTOZona4="4" PTRitBag="80" PTmrTest2="20" PulseCount="25" TimEV="10" TAll1="80" TAll2="10" TAll3="3" TAll4="10" TAll5="10" TFineTrans="8" Audit.MoneyStock="0" TFlussoSbl="8" TODisimpegno="6" TOFoto="10" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="05" ModeName="离线模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="07" ModeName="维护模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="08" ModeName="关闭服务" IfDefault="0" ModeExplain="" />
+      <Command ModeId="10" ModeName="列车故障模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="12" ModeName="乘车时间免检" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="MCM二代AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="MCM隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="MCM二代圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="乘客显示器" ComponentSn="1" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="乘客显示器" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4002">
+    <!--基本信息-->
+    <BasicInfo Id="4002" Name="mcm入站闸机" Protocol="00" Map="bmp\igt" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="串口ABC读卡器" ComponentSn="0" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="MCM二代AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1002" SmallName="Gunnebo隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="455" UseLife="54" TimesLimit="54545" TimesAlarm="544" MaintainPeriods="544545" Alarm="54545" CarePeriods="54554" Guarantee="54545454" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4003">
+    <!--基本信息-->
+    <BasicInfo Id="4003" Name="三期入站闸机" Protocol="00" Map="4001" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="进站读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护屏" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="进站乘客显示器" ComponentSn="1" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4004">
+    <!--基本信息-->
+    <BasicInfo Id="4004" Name="DS入站闸机" Protocol="00" Map="4001" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="进站读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="进站乘客显示器" ComponentSn="1" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1201" SmallName="维护屏" ComponentSn="3" DefaultMap="1201" StopAlarm="212" UseLife="21" TimesLimit="221" TimesAlarm="212" MaintainPeriods="2121" Alarm="2121" CarePeriods="21" Guarantee="2121" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4101">
+    <!--基本信息-->
+    <BasicInfo Id="4101" Name="gxmis出站闸机" Protocol="00" Map="4101" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm LineID="0001" HeightChk="0" ShowErrorCodeFlag="1" CardRecycleAlarm="1" CanEntranceCheck="1" AutoCancelDelayTime="30" CreditFlag="0" InOutAspect="2" inoutswitch="" StartTime="050000" RunPoint="040000" EndTime="273000" BoxInf="/GAT_T1,900,,1000,1000,/GAT_T2,900,,1000,1000," ExecMethod="7" AlarmEnable="1" Select="3" UseTestCard="0" TOImpegno="20" PMaxMemo="6" OnOffSpeed="5" MaintenanceShowIn="1" IsLackOfSAM="0" TurnoffIndicatorLight="0" CardRecycleErrorFlag="1" SoundSize="100" CompareTerminalCode="1" TurnoffBackLight="1" TurnoffArrowLight="0" SubMaxWaitTimeout="1" SubPersist="0" SubPort="50041" SubValidTime="5" SubHostName="10.8.3.131" SubMaxReconnectTime="5" SubSvrAddr="260" LocalLogSaveCount="1024" LocalLogSvrPort="50051" LogSvrIP="" LogSvrPort="50050" MaxUseSize="30" AffairFileSaveDays="7" TradeFileSaveDays="7" PTRitBag="80" PTmrTest2="20" PulseCount="25" AlarmSetting="6150" Audit.EquipmentAbnormal="0" Audit.EquipmentWork="0" Audit.MoneyAbnormal="0" Audit.MoneyIncome="0" MaintainInterval="1440" ModoCntr="3" PAllAIPause="3" PDelayAck="4" PFotoSafety="0" PGenerali="26" PReader="0" PSetManual="0" PTFilterAlarm="5" PTFilterFault="0" PTOZona1="10" PTOZona2="10" PTOZona3="8" PTOZona4="4" TimEV="10" TAll1="80" TAll2="10" TAll3="3" TAll4="10" TAll5="10" TFineTrans="8" Audit.MoneyStock="0" TFlussoSbl="8" TODisimpegno="6" TOFoto="10" TResAll="10" TRitChiudi="1" Audit.TicketAbnormal="0" Audit.TicketIncome="0" Audit.TicketStock="0" AuditInterval="15" CloseZone="0" ConvsZone="1" CorporationID="268" EnAllarmi1="255" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="05" ModeName="离线模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="07" ModeName="维护模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="08" ModeName="关闭服务" IfDefault="0" ModeExplain="" />
+      <Command ModeId="10" ModeName="列车故障模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="12" ModeName="乘车时间免检" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站单程票读卡器" ComponentSn="3" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站储值票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="MCM二代AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="MCM隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="MCM二代圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="出站乘客显示器" ComponentSn="2" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护屏" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4102">
+    <!--基本信息-->
+    <BasicInfo Id="4102" Name="mcm出站闸机" Protocol="00" Map="bmp\ogt" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4103">
+    <!--基本信息-->
+    <BasicInfo Id="4103" Name="三期出站闸机" Protocol="00" Map="4101" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站单程票读卡器" ComponentSn="3" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站储值票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护屏" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="出站乘客显示器" ComponentSn="2" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4104">
+    <!--基本信息-->
+    <BasicInfo Id="4104" Name="DS出站闸机" Protocol="00" Map="4101" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站单程票读卡器" ComponentSn="3" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站储值票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="出站乘客显示器" ComponentSn="2" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护屏" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4201">
+    <!--基本信息-->
+    <BasicInfo Id="4201" Name="gxmis双向闸机" Protocol="00" Map="4201" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm LineID="0001" InOutAspect="2" inoutswitch="" StartTime="050000" ShowErrorCodeFlag="1" RunPoint="040000" CreditFlag="0" HeightChk="0" EndTime="273000" CardRecycleAlarm="1" CanEntranceCheck="1" AutoCancelDelayTime="30" BoxInf="/GAT_T1,900,,1000,1000,/GAT_T2,900,,1000,1000," OnOffSpeed="5" TOImpegno="20" UseTestCard="0" AlarmEnable="1" Select="3" ExecMethod="7" PMaxMemo="6" TurnoffBackLight="1" TurnoffArrowLight="0" SoundSize="100" MaintenanceShowIn="1" CardRecycleErrorFlag="1" CompareTerminalCode="1" IsLackOfSAM="0" TurnoffIndicatorLight="0" SubPort="50041" SubSvrAddr="260" SubValidTime="5" SubPersist="0" SubMaxWaitTimeout="1" SubHostName="根据所需IP" SubMaxReconnectTime="5" LogSvrIP="" LocalLogSvrPort="50051" LocalLogSaveCount="1024" LogSvrPort="50050" AffairFileSaveDays="7" MaxUseSize="30" TradeFileSaveDays="7" TAll5="10" TFineTrans="8" Audit.MoneyStock="0" TFlussoSbl="8" TODisimpegno="6" TOFoto="10" TResAll="10" TRitChiudi="1" Audit.TicketAbnormal="0" Audit.TicketIncome="0" Audit.TicketStock="0" AuditInterval="15" AlarmSetting="6150" Audit.EquipmentAbnormal="0" Audit.EquipmentWork="0" Audit.MoneyAbnormal="0" Audit.MoneyIncome="0" MaintainInterval="1440" ModoCntr="3" PAllAIPause="3" PDelayAck="4" PFotoSafety="0" PGenerali="26" PReader="0" PSetManual="0" PTFilterAlarm="5" PTFilterFault="0" PTOZona1="10" PTOZona2="10" PTOZona3="8" PTOZona4="4" PTRitBag="80" PTmrTest2="20" PulseCount="25" TimEV="10" TAll1="80" TAll2="10" CloseZone="0" ConvsZone="1" CorporationID="268" EnAllarmi1="255" TAll4="10" TAll3="3" />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="03" ModeName="紧急放行模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="05" ModeName="离线模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="07" ModeName="维护模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="08" ModeName="关闭服务" IfDefault="0" ModeExplain="" />
+      <Command ModeId="10" ModeName="列车故障模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="12" ModeName="乘车时间免检" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站单程票读卡器" ComponentSn="3" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="进站读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站储值票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="进站乘客显示器" ComponentSn="1" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="出站乘客显示器" ComponentSn="2" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护显示器" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4202">
+    <!--基本信息-->
+    <BasicInfo Id="4202" Name="MCM双向闸机" Protocol="00" Map="bmp\agt" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4203">
+    <!--基本信息-->
+    <BasicInfo Id="4203" Name="三期双向闸机" Protocol="00" Map="4201" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode>
+      <Command ModeId="03" ModeName="紧急放行模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="08" ModeName="关闭服务" IfDefault="0" ModeExplain="" />
+      <Command ModeId="11" ModeName="进、出站次序免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="12" ModeName="乘车时间免检" IfDefault="0" ModeExplain="" />
+      <Command ModeId="13" ModeName="车票日期免检" IfDefault="0" ModeExplain="" />
+      <Command ModeId="14" ModeName="车费免检" IfDefault="0" ModeExplain="" />
+      <Command ModeId="15" ModeName="进出站次序免检模式+乘车时间免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="16" ModeName="进出站次序免检模式+车票日期免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="17" ModeName="进出站次序免检模式+车费免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="18" ModeName="车票日期免检模式+乘车时间免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="19" ModeName="车票日期免检模式+车费免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="20" ModeName="车费免检模式+乘车时间免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="21" ModeName="进出站次序免检模式+乘车时间免检模式+车票日期免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="22" ModeName="进出站次序免检模式+车费免检模式+乘车时间免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="23" ModeName="进出站次序免检模式+车费免检模式+车票日期免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="24" ModeName="进出站次序免检模式+乘车时间免检模式+车费免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="25" ModeName="进出站次序免检模式+乘车时间免检模式+车票日期免检模式+车费免检模式" IfDefault="0" ModeExplain="" />
+      <Command ModeId="00" ModeName="正常通行模式" IfDefault="0" ModeExplain="" />
+    </SpeciesCommandMode>
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站单程票读卡器" ComponentSn="3" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="进站读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站储值票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="进站乘客显示器" ComponentSn="1" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="出站乘客显示器" ComponentSn="2" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护显示器" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4204">
+    <!--基本信息-->
+    <BasicInfo Id="4204" Name="DS双向闸机" Protocol="00" Map="4201" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation>
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站单程票读卡器" ComponentSn="3" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="进站读卡器" ComponentSn="1" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="01" BigName="读卡器" SmallId="0102" SmallName="出站储值票读卡器" ComponentSn="2" DefaultMap="0101" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+      <ComponentInformation BigId="06" BigName="综合控制器" SmallId="0603" SmallName="AGM综合控制器" ComponentSn="0" DefaultMap="0601" StopAlarm="21212" UseLife="3232" TimesLimit="32323" TimesAlarm="11332" MaintainPeriods="3223" Alarm="323" CarePeriods="3223" Guarantee="3223442" />
+      <ComponentInformation BigId="10" BigName="机芯" SmallId="1001" SmallName="隐藏门式机芯" ComponentSn="0" DefaultMap="1001" StopAlarm="11212" UseLife="54554" TimesLimit="12212" TimesAlarm="4554" MaintainPeriods="22121" Alarm="212" CarePeriods="212" Guarantee="25454545" />
+      <ComponentInformation BigId="11" BigName="卡回收机构" SmallId="1103" SmallName="圆卡回收机构" ComponentSn="0" DefaultMap="1101" StopAlarm="5454" UseLife="545" TimesLimit="455" TimesAlarm="5454" MaintainPeriods="4554" Alarm="5454" CarePeriods="5454" Guarantee="54545454" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="进站乘客显示器" ComponentSn="1" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="出站乘客显示器" ComponentSn="2" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="12" BigName="乘客显示器" SmallId="1202" SmallName="维护显示器" ComponentSn="3" DefaultMap="1202" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱1" ComponentSn="1" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="16" BigName="票箱" SmallId="1601" SmallName="回收票箱2" ComponentSn="2" DefaultMap="1601" StopAlarm="213" UseLife="213" TimesLimit="213" TimesAlarm="213" MaintainPeriods="23" Alarm="21323" CarePeriods="21" Guarantee="21321322" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8003" SmallName="交易上传状态" ComponentSn="0" DefaultMap="8001" StopAlarm="" UseLife="" TimesLimit="" TimesAlarm="" MaintainPeriods="" Alarm="" CarePeriods="" Guarantee="" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8001" SmallName="通信模块" ComponentSn="0" DefaultMap="8001" StopAlarm="3432" UseLife="343432" TimesLimit="3434" TimesAlarm="3434" MaintainPeriods="3423" Alarm="34234" CarePeriods="3423" Guarantee="4334342" />
+      <ComponentInformation BigId="80" BigName="软件模块" SmallId="8002" SmallName="时钟同步" ComponentSn="0" DefaultMap="8001" StopAlarm="100" UseLife="100" TimesLimit="100" TimesAlarm="100" MaintainPeriods="100" Alarm="100" CarePeriods="100" Guarantee="100" />
+    </SpeciesComponentInformation>
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4601">
+    <!--基本信息-->
+    <BasicInfo Id="4601" Name="gxmis边机" Protocol="00" Map="4601" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="4602">
+    <!--基本信息-->
+    <BasicInfo Id="4602" Name="mcm边机" Protocol="00" Map="4601" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="9701">
+    <!--基本信息-->
+    <BasicInfo Id="9701" Name="管理终端1" Protocol="99" Map="" IfManage="0" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+  <!--种类信息-->
+  <Species SpeciesId="9804">
+    <!--基本信息-->
+    <BasicInfo Id="9804" Name="DS手持验票机" Protocol="00" Map="" IfManage="1" Explain="" />
+    <!--基本参数节点-->
+    <ControlParm />
+    <!--通信命令节点-->
+    <SpeciesCommand />
+    <!--命令模式节点-->
+    <SpeciesCommandMode />
+    <!--状态信息节点-->
+    <SpeciesStateInformation />
+    <!--部件信息节点-->
+    <SpeciesComponentInformation />
+    <!--设备种类字典数据节点-->
+    <SpeciesCode />
+  </Species>
+</SpeciesParam>

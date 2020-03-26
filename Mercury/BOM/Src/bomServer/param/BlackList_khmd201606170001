@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BlackList>
+  <!--版本信息-->
+  <Version VersionId="khmd201606170001" VersionDate="20160617194745" VersionType="1" VersionValidate="20160617194412" ValidateType="1" InValidateTime="20160617194745" VersionSystem="400" VersionOper="010197" FormatVersion="01" />
+  <!--枚举黑名单-->
+  <CardListInfo IssuerId="0001" SrcAddr="400" CreateDate="20160617194758" Content="88888888800000000000000001" CardIdLength="9" />
+  <!--批量黑名单-->
+  <CardBachInfo IssuerId="0001" SrcAddr="400" CreateDate="20160617194758" Content="0000000010000000021" CardIdLength="9" />
+</BlackList>

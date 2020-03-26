@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReaderParam>
+  <!--版本信息-->
+  <Version VersionId="dxqyy201606170001" VersionDate="20160617104927" VersionType="1" VersionValidate="20160617104552" ValidateType="1" InValidateTime="20160617104927" VersionSystem="400" VersionOper="010197" FormatVersion="01" />
+  <!--读卡器参数-->
+  <ParamInfo PriceOffUpdateTime="00000020" BlackListUnlock="0" RunTime="04:00:00" FreeCancelAuditTime="00000020" PollingTimeout="130" SAMParamCount="2" TradeVersion="SZMETROV2" />
+  <ControlParam SAMApp="0000" MatchTerminalCode="1" CardParam="2" NetParamLength="27" NetParam="218.17.158.169,50031,1.01,5" SamOpCountParamLength="10" SamOpCountParam="1,100000,3" SamValueParamLength="10" SamValueParam="1,100000,3" />
+  <ControlParam SAMApp=".SZT" MatchTerminalCode="0" CardParam="2" NetParamLength="23" NetParam="10.99.3.18,50031,1.01,5" SamOpCountParamLength="10" SamOpCountParam="1,100000,3" SamValueParamLength="10" SamValueParam="1,100000,3" />
+  <PoliticalFee Id="51" BaseFeeType="1" Multiple="1" />
+  <PoliticalFee Id="52" BaseFeeType="1" Multiple="0" />
+  <PoliticalFee Id="53" BaseFeeType="0" Multiple="1" />
+  <PoliticalFee Id="54" BaseFeeType="1" Multiple="11" />
+  <PoliticalFee Id="55" BaseFeeType="2" Multiple="4" />
+  <PoliticalFee Id="56" BaseFeeType="2" Multiple="5" />
+  <CardTypeMapping OriginCardType="84" MappingCardType="98" />
+  <CardTypeMapping OriginCardType="85" MappingCardType="98" />
+  <CardTypeMapping OriginCardType="91" MappingCardType="98" />
+  <CardTypeMapping OriginCardType="92" MappingCardType="98" />
+  <CardTypeMapping OriginCardType="93" MappingCardType="98" />
+  <LineIdMapping OriginLineId="01" MappingLineId="268" />
+  <LineIdMapping OriginLineId="06" MappingLineId="264" />
+  <LineIdMapping OriginLineId="07" MappingLineId="265" />
+  <LineIdMapping OriginLineId="08" MappingLineId="266" />
+  <LineIdMapping OriginLineId="09" MappingLineId="267" />
+  <LineIdMapping OriginLineId="10" MappingLineId="240" />
+  <LineIdMapping OriginLineId="11" MappingLineId="241" />
+  <LineIdMapping OriginLineId="60" MappingLineId="260" />
+  <LineIdMapping OriginLineId="61" MappingLineId="261" />
+  <LineIdMapping OriginLineId="62" MappingLineId="262" />
+  <LineIdMapping OriginLineId="63" MappingLineId="263" />
+</ReaderParam>

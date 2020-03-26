@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EquParam>
+  <!--版本信息-->
+  <Version VersionId="sb201606200001" VersionDate="20160620164748" VersionType="1" VersionValidate="20160620164416" ValidateType="1" InValidateTime="20160620164748" VersionSystem="400" VersionOper="010197" FormatVersion="01" />
+  <Equipment EquipmentId="241017006">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="1204" NetId="10.146.38.6" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017007">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="1204" NetId="10.146.38.7" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017008">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="1204" NetId="10.146.38.8" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017009">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="1204" NetId="10.146.38.9" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017101">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4204" NetId="10.146.38.101" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017102">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.102" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017103">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.103" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017104">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.104" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017105">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.105" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017106">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.106" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017107">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.107" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017108">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.108" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017109">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.109" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017110">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.110" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017111">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.111" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017112">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4104" NetId="10.146.38.112" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017113">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.113" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017114">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.114" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017115">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.115" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017116">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4204" NetId="10.146.38.116" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017117">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4204" NetId="10.146.38.117" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017118">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4204" NetId="10.146.38.118" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017119">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.119" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017120">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.120" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017121">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.121" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017122">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4204" NetId="10.146.38.122" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017123">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.123" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017124">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.124" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017125">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="4004" NetId="10.146.38.125" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017201">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.201" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017202">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.202" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017203">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.203" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017204">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.204" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017205">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.205" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="VIP|99" DAS.stm.tickettype.box2="VIP|99" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017206">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.206" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="VIP|99" DAS.stm.tickettype.box2="VIP|99" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017207">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.207" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017208">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.208" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017209">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.209" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017210">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.210" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017211">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.211" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017212">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2204" NetId="10.146.38.212" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="5,10,20" DAS.coin.recyclebox.max="5000" DAS.reader.antenna="11111111" DAS.reader.devapptype="5" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.change.sametime="1" DAS.sle.equipment.type="TVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" DAS.stm.invalid.max="20" DAS.stm.prepare.mode="0" DAS.stm.recycle.max="3000" DAS.stm.tickettype.box1="PUTONG|98" DAS.stm.tickettype.box2="PUTONG|98" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" cash.note.BoxValue1="500" cash.note.BoxValue2="500" cash.note.BoxValue3="1000" cash.note.BoxValue4="2000" cash.note.FullNoteBackBox="1000" cash.note.FullWarningNoteBackBox="800" cash.note.haveCircle="1" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="200" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.changeorder="0" equipment.checkDoorReader="1" gc.notebacklight="1" ticket.MaxTicketOutErr="3" ticket.transport.InvTicketProcessManner="0" ticket.transport.IsBeforehand="0" ticket.transport.SameReturnAndBad="0" ticket.transport.TicketMinWarning0="0" ticket.transport.TicketMinWarning1="0" ticket.transport.TicketWarning0="10" ticket.transport.TicketWarning1="10" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017301">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2104" NetId="10.146.38.31" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="50100" DAS.reader.antenna="11111111" DAS.reader.devapptype="4" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.equipment.type="AVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" card.reader.islog="0" cash.note.iAddValueMaxValue="" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.checkDoorReader="1" gc.notebacklight="0" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017302">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2104" NetId="10.146.38.32" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm DAS.banknote.Denomination="50100" DAS.reader.antenna="11111111" DAS.reader.devapptype="4" DAS.reader.operatemode="0" DAS.reader.pollingmode="0" DAS.sle.audit.timeslice="900" DAS.sle.equipment.type="AVM" DAS.sle.logfile.days="180" DAS.sle.status.timeslice="30" DAS.sle.tradefile.days="180" DAS.sle.video.show="1" DAS.sle.video.timelag="180" LocalLogDir="./log/" LogNameRegex=".*.log.gz$" card.reader.islog="0" cash.note.iAddValueMaxValue="" cash.note.isLogdrv="0" equipment.AllWorkEndTime="1:00:00" equipment.CustomerOperationTime="60000" equipment.MainControlTimeslice="" equipment.NOOPERATIONTIME="300000" equipment.RebootBeginTime="5:30:10" equipment.RebootEndTime="5:30:30" equipment.WorkBeginTime="5:45:00" equipment.checkDoorReader="1" gc.notebacklight="0" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017501">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2004" NetId="10.146.38.51" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm AllowAddSmallCash="1" BillFooterLines="10" BomSleepTime="180000" CheckNetStateInterval="5000" DealtypeForBalance="1" DisplayTimeOut="10000" IsSecondCheck="1" IsSingleHistroyInfo="0" MaxTimeError="3600" MinTimeError="10" PrintDataReserveDays="90" SellCardMaxNumbers="300" SellCardType="98" StartDelay="5" SystemName="深圳地铁" TimeInterval="5" TimeSourceIP="" TimeSourcePort="50046" TradeDataReserveDays="90" TradePrintCounts="3" TradePrintFlag="11,05,91,92,93,71,72,03,74,83,84,15" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017502">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2004" NetId="10.146.38.52" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm AllowAddSmallCash="1" BillFooterLines="10" BomSleepTime="180000" CheckNetStateInterval="5000" DealtypeForBalance="1" DisplayTimeOut="10000" IsSecondCheck="1" IsSingleHistroyInfo="0" MaxTimeError="3600" MinTimeError="10" PrintDataReserveDays="90" SellCardMaxNumbers="300" SellCardType="98" StartDelay="5" SystemName="深圳地铁" TimeInterval="5" TimeSourceIP="" TimeSourcePort="50046" TradeDataReserveDays="90" TradePrintCounts="3" TradePrintFlag="11,05,91,92,93,71,72,03,74,83,84,15" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017503">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="2004" NetId="10.146.38.53" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm AllowAddSmallCash="1" BillFooterLines="10" BomSleepTime="180000" CheckNetStateInterval="5000" DealtypeForBalance="1" DisplayTimeOut="10000" IsSecondCheck="1" IsSingleHistroyInfo="0" MaxTimeError="3600" MinTimeError="10" PrintDataReserveDays="90" SellCardMaxNumbers="300" SellCardType="98" StartDelay="5" SystemName="深圳地铁" TimeInterval="5" TimeSourceIP="" TimeSourcePort="50046" TradeDataReserveDays="90" TradePrintCounts="3" TradePrintFlag="11,05,91,92,93,71,72,03,74,83,84,15" HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017701">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="9804" NetId="10.146.38.71" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+  <Equipment EquipmentId="241017702">
+    <!--基本参数-->
+    <BasicInfo SystemId="241017" SpeciesId="9804" NetId="10.146.38.72" IfAspect="0" AuthenticType="3" DefaultMode="00" GroupId="0" IfDynamicIp="0" />
+    <!--基本参数信息-->
+    <ControlParm HvCount="5" FvCount="5" />
+    <!--部件参数信息-->
+    <EquComponentParam />
+  </Equipment>
+</EquParam>

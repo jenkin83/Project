@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CardPlan>
+  <!--版本信息-->
+  <Version VersionId="pkfa201606210002" VersionDate="20160621135825" VersionType="1" VersionValidate="20160621135825" ValidateType="1" InValidateTime="20160621135825" VersionSystem="400" VersionOper="010197" FormatVersion="01" />
+  <!--卡信息-->
+  <CardType>
+    <CardTypeInfo CardType="90" CardTypeName="90非员工工作证" Description="" ForeGift="0" Charge="0" DateaVailable="365" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N1\R0\D00000\C100100000\A0\F0\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L10\W0\G0\I0\J01\K100\Q90非员工工作证\U00\c0\h1000000\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="90" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="99" CardTypeName="99 商务车厢单程票" Description="" ForeGift="0" Charge="0" DateaVailable="1" MediaType="02" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S1\N0\R1\D00000\C100010000\A1\F1\B1\M0000\E0\T1\V0\X1\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K000\Q99商务车厢单程票\U00\c0\h1000600\o1" CardTypeName_En="99" IsSelled="1" SortId="1" />
+    <CardTypeInfo CardType="05" CardTypeName="05 普通学生卡" Description="" ForeGift="2000" Charge="0" DateaVailable="365" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N1\R0\D00000\C100050000\A1\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L13\W0\G0\I0\J00\K100\Q05普通学生卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0" CardTypeName_En="05" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="15" CardTypeName="15 普通学生卡" Description="" ForeGift="2000" Charge="0" DateaVailable="365" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N1\R0\D00000\C100050000\A1\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L13\W0\G0\I0\J00\K100\Q15普通学生卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0" CardTypeName_En="15" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="25" CardTypeName="25 普通学生卡" Description="" ForeGift="0" Charge="2000" DateaVailable="365" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N1\R0\D00000\C100050000\A1\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L13\W0\G0\I0\J01\K100\Q25普通学生卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0" CardTypeName_En="25" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="08" CardTypeName="08 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q08普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="08" IsSelled="1" SortId="7" />
+    <CardTypeInfo CardType="18" CardTypeName="18 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q18普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="18" IsSelled="0" SortId="8" />
+    <CardTypeInfo CardType="21" CardTypeName="21 残疾人卡" Description="" ForeGift="0" Charge="0" DateaVailable="3650" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N1\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L10\W0\G0\I0\J02\K100\Q21残疾人卡\U00\c0\h1000000\o1" CardTypeName_En="21" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="28" CardTypeName="28 手机深圳通卡" Description="" ForeGift="0" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A0\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J02\K100\Q28手机深圳通卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="28" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="29" CardTypeName="29 纪念储值卡" Description="" ForeGift="0" Charge="2000" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J02\K100\Q29纪念储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="29" IsSelled="1" SortId="99" />
+    <CardTypeInfo CardType="32" CardTypeName="32 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q32普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="32" IsSelled="0" SortId="2" />
+    <CardTypeInfo CardType="33" CardTypeName="33 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q33普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="33" IsSelled="0" SortId="9" />
+    <CardTypeInfo CardType="34" CardTypeName="34 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="3650" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q34普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="34" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="35" CardTypeName="35 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="3650" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q35普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="35" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="36" CardTypeName="36 普通储值卡" Description="" ForeGift="0" Charge="2000" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K100\Q36普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="36" IsSelled="1" SortId="3" />
+    <CardTypeInfo CardType="44" CardTypeName="44 普通储值卡" Description="" ForeGift="0" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J02\K100\Q44普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="44" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="46" CardTypeName="46 手机深圳通" Description="预留" ForeGift="0" Charge="0" DateaVailable="3650" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A0\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J02\K100\Q46手机深圳通\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="46" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="66" CardTypeName="66 纪念储值卡" Description="" ForeGift="0" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J02\K100\Q66纪念储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="66" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="68" CardTypeName="68 普通储值卡" Description="" ForeGift="0" Charge="2000" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K100\Q68普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="68" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="69" CardTypeName="69 普通储值卡" Description="" ForeGift="0" Charge="2000" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K100\Q69普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="69" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="70" CardTypeName="70 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q70普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="70" IsSelled="0" SortId="4" />
+    <CardTypeInfo CardType="80" CardTypeName="80  地铁周票" Description="" ForeGift="0" Charge="0" DateaVailable="8" MediaType="08" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C300000008\A3000800005000\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L0\W0\G0\I0\J01\K1\Q80地铁周票\U00\c0\h1000000\o1" CardTypeName_En="80" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="81" CardTypeName="81 轨道计次票" Description="" ForeGift="0" Charge="0" DateaVailable="93" MediaType="01" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C200001050\A0\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K000\Q81轨道计次票\U00\c3372820000000020730\h1000001\e0\n0000000000\o1\p000000000\q0\s0\t0\u0" CardTypeName_En="81" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="82" CardTypeName="82 轨道日期票" Description="" ForeGift="0" Charge="0" DateaVailable="1" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C300001000\A0\F0\B1\M0000\E0\T3210\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K000\Q82轨道日期票\U00\c1100010000000001440\h0\e0\n0000000000\o1\p000000000\q0\s0\t0\u0" CardTypeName_En="82" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="88" CardTypeName="88 地铁员工卡" Description="" ForeGift="0" Charge="0" DateaVailable="3650" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N2\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L10\W0\G0\I0\J02\K100\Q88地铁员工卡\U00\c0\h1000000\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="88" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="89" CardTypeName="89 轨道纪念票（计次票）" Description="" ForeGift="0" Charge="0" DateaVailable="93" MediaType="02" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C200000099\A0\F1\B1\M0000\E0\T1\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K100\Q89轨道纪念票（计次票）\U00\c0\h1000001\e0\n0000000000\o1\p000000000\q0\s0\t0\u0" CardTypeName_En="39" IsSelled="0" SortId="99" />
+    <CardTypeInfo CardType="98" CardTypeName="98 轨道单程票" Description="" ForeGift="0" Charge="0" DateaVailable="1" MediaType="02" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S1\N0\R1\D00000\C100010000\A1\F1\B1\M0000\E0\T1\V0\X1\Y0\P1\O000000000\H0\L00\W0\G0\I0\J01\K000\Q98轨道单程票\U00\c0\h1000200\o1" CardTypeName_En="98" IsSelled="1" SortId="1" />
+    <CardTypeInfo CardType="02" CardTypeName="02 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q02普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="02" IsSelled="1" SortId="4" />
+    <CardTypeInfo CardType="03" CardTypeName="03 普通储值卡" Description="" ForeGift="2000" Charge="0" DateaVailable="10950" MediaType="04" CardStatus="0" Curvalue="0" IssueSn="0" CardAttrib="\S0\N0\R0\D00000\C100100000\A1\F1\B1\M0000\E0\T0\V0\X0\Y0\P1\O000000000\H0\L00\W0\G0\I0\J00\K100\Q03普通储值卡\U00\c0\h1000200\e0\n0000000000\o1\p000000000\q0\s0\t0\u0\v0" CardTypeName_En="03" IsSelled="0" SortId="6" />
+  </CardType>
+  <!--计价方案-->
+  <FarePlan>
+    <FarePlanInfo FarePlanNo="0001" FarePlanName="深圳地铁CLC计价方案" CardPlanNo="0001" ContinuousRule="0001" IfDefault="1" />
+  </FarePlan>
+  <!--计费规则-->
+  <FareRulePlan>
+    <FareRulePlanInfo PlanId="0000" PlanName="普通储值票计费" PlanProperty="\P\Tt210-999:+1400\p-5" />
+    <FareRulePlanInfo PlanId="0001" PlanName="单程票计费" PlanProperty="\P\Tt210-999:+1400\R" />
+    <FareRulePlanInfo PlanId="0002" PlanName="员工票计费" PlanProperty="\P*0" />
+    <FareRulePlanInfo PlanId="0004" PlanName="老人免费票" PlanProperty="\P*0" />
+    <FareRulePlanInfo PlanId="0005" PlanName="优惠卡免票" PlanProperty="\P*0" />
+    <FareRulePlanInfo PlanId="0006" PlanName="学生票优惠" PlanProperty="\P*50\Tt210-999:+700" />
+    <FareRulePlanInfo PlanId="0007" PlanName="纪念票计费" PlanProperty="\P" />
+    <FareRulePlanInfo PlanId="0013" PlanName="日期票计费" PlanProperty="\P" />
+    <FareRulePlanInfo PlanId="0014" PlanName="次票计费" PlanProperty="\P\Tt210-999:+100" />
+    <FareRulePlanInfo PlanId="0015" PlanName="普通储值时段优惠计费" PlanProperty="\P\Tt210-999:+700\Ew1210301200p-10w1212001330p-15w0600002359p-5" />
+    <FareRulePlanInfo PlanId="0016" PlanName="大运9折优惠(正式)" PlanProperty="\P\Tt210-999:+1400\Ed201106012011061500002359p-5d201106152011100100002359p-10d201110012099060500002359p-5" />
+    <FareRulePlanInfo PlanId="0017" PlanName="核准储值票计费规则" PlanProperty="\P\Tt210-999:+1400" />
+  </FareRulePlan>
+  <!--票卡方案-->
+  <CardPlan>
+    <CardPlanInfo CardPlanId="0001" CardPlanName="深圳地铁卡方案">
+      <CardPlanList CardType="03" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="08" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="18" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="28" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="29" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="32" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="33" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="34" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="35" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="36" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="44" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="46" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="66" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="68" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="69" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="70" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="99" FareRulePlan="0001" BasicPlanNo="0002" CheckStatus="0" />
+      <CardPlanList CardType="46" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="02" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="05" FareRulePlan="0006" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="08" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="15" FareRulePlan="0006" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="18" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="21" FareRulePlan="0005" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="25" FareRulePlan="0006" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="28" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="29" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="32" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="33" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="36" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="44" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="66" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="68" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="69" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="70" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="81" FareRulePlan="0014" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="88" FareRulePlan="0002" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="98" FareRulePlan="0001" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="82" FareRulePlan="0013" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="90" FareRulePlan="0002" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="89" FareRulePlan="0014" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="35" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="34" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="80" FareRulePlan="0013" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="02" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="03" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+    </CardPlanInfo>
+    <CardPlanInfo CardPlanId="0002" CardPlanName="非优惠通道方案">
+      <CardPlanList CardType="68" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="69" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="70" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="80" FareRulePlan="0013" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="81" FareRulePlan="0014" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="82" FareRulePlan="0013" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="88" FareRulePlan="0002" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="89" FareRulePlan="0014" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="98" FareRulePlan="0001" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="02" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="03" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="08" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="18" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="21" FareRulePlan="0005" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="28" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="29" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="32" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="33" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="34" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="35" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="36" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="44" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="02" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="03" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="08" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="18" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="28" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="29" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="32" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="33" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="34" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="35" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="36" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="44" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="46" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="66" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="68" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="69" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="70" FareRulePlan="0017" BasicPlanNo="0002" CheckStatus="1" />
+      <CardPlanList CardType="46" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+      <CardPlanList CardType="66" FareRulePlan="0000" BasicPlanNo="0001" CheckStatus="0" />
+    </CardPlanInfo>
+  </CardPlan>
+  <!--联程优惠-->
+  <ContinuousRule>
+    <RuleInfo RuleId="0001" RuleName="联程优惠" FarePlan="0001" Company="268">
+      <RuleList PriorSystemID="FFF" PriorFarePlan="FFFF" PriorAddress="FFFFFFFFFF" CurrentLine="0001" CurrentAddress="FFFFFFFFFF" MinInterval="0" MaxInterval="90" MinMoney="0" CardTypeRule="02\p-0000004003\p-0000004008\p-0000004018\p-0000004028\p-0000004029\p-0000004032\p-0000004033\p-0000004036\p-0000004044\p-0000004049\p-0000004066\p-0000004068\p-0000004069\p-0000004070\p-00000040" />
+    </RuleInfo>
+  </ContinuousRule>
+</CardPlan>
